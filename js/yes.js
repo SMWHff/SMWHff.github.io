@@ -607,6 +607,7 @@ $(document).ready(function () {
     $(".pinglun").click(function () {
         $(".tosides-2").click();
         $(".button-comment").click();
+        jump(".hero");
     });
 
     if ($('.mermaid')) {
