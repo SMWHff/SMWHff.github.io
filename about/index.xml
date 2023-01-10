@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>关于 on 神梦无痕的博客</title>
-    <link>https://SMWHff.github.io/about/</link>
+    <link>https://SMWHff.com/about/</link>
     <description>Recent content in 关于 on 神梦无痕的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 04 Jan 2023 18:22:05 +0800</lastBuildDate><atom:link href="https://SMWHff.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jan 2023 18:22:05 +0800</lastBuildDate><atom:link href="https://SMWHff.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
