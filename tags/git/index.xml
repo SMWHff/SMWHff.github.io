@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>教程 on SMWHff&#39;s Blog | 神梦博客</title>
-    <link>https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</link>
-    <description>Recent content in 教程 on SMWHff&#39;s Blog | 神梦博客</description>
+    <title>Git on SMWHff&#39;s Blog | 神梦博客</title>
+    <link>https://SMWHff.com/tags/git/</link>
+    <description>Recent content in Git on SMWHff&#39;s Blog | 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 13:02:28 +0800</lastBuildDate>
-    <atom:link href="https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SMWHff.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【Windows】Git 环境配置和上传 GitHub</title>
       <link>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</link>
@@ -22,13 +22,6 @@ git config --global user.name &amp;#34;你的账号&amp;#34; 输入配置邮箱�
 git config --global user.email &amp;#34;你的邮箱地址&amp;#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行
 ssh-keygen -t rsa -C &amp;#34;你的邮箱地址&amp;#34; 输入查看公钥字符串命令，然后复制字符串到剪切板
 cat ~/.ssh/id_rsa.pub 四、GitHub 配置 SSH Key 打开创建SSH Key页面：https://github.com/settings/ssh/new Title 随便填什么都行 Key 就复制之前查看到的公钥字符串粘贴上去就行 五、创建远程仓库 打开新建仓库页面：https://github.</description>
-    </item>
-    <item>
-      <title>CentOS 部署 Docker 环境教程</title>
-      <link>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</link>
-      <pubDate>Wed, 18 Jan 2023 13:02:28 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</guid>
-      <description>1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://s2nni631.</description>
     </item>
   </channel>
 </rss>
