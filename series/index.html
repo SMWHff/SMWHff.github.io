@@ -3,23 +3,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | Series</title>
+    <title>SMWHff&#39;s Blog | 神梦博客 | Series</title>
     <meta name="description" content=" ">
     <link rel="canonical" href="https://SMWHff.com/series/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?3810f0c4a04b40a69d31cf5873466f50";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
     <meta property="og:title" content="Series" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://SMWHff.com/series/" />
+
 
 
     <meta name="twitter:card" content="summary"/>
@@ -31,6 +23,7 @@
     
     <link rel="stylesheet" href='/css/style.css' />
     <link rel="stylesheet" href='/css/search.css' />
+    <link rel="stylesheet" href='/css/md_nb.css' />
     <link rel="stylesheet" href='/css/list.css' />
     <link rel="stylesheet" href='/css/terms.css' />
     <link rel="stylesheet" href='/css/taxonomy.css' />
@@ -53,7 +46,7 @@
     <script>
     MathJax = {
       tex: {
-        inlineMath: [["$", "$"]],
+        inlineMath: [["\\(", "\\)"]],
       },
       displayMath: [
         ["$$", "$$"],
@@ -76,10 +69,12 @@
     <script src="/js/lazysizes.min.js" async=""></script>
     <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/search.js"></script>
+    <script src="/js/md_nb.js"></script>
+    
     <script src="/js/yes.js"></script>
     
-        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     
 </head><body style="font-family: ,'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;">
         <div class="loading">
@@ -93,7 +88,7 @@
     <nav class="navbar">
         <div class="navbar-brand">
             <a href="/">
-                <span class="logo">SMWHff&#39;s Blog</span>
+                <span class="logo">SMWHff&#39;s Blog | 神梦博客</span>
             </a>
         </div>
         <div class="navbar-menu">
@@ -273,6 +268,26 @@
 
 
 <div class="taxo-col">
+    <a href="https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/">
+        <div class="taxo-card">
+            <div class="folder-rear"></div>
+                
+                
+                    <div class="taxo-img" style="background-image: url( /images/default-7.jpg );"></div>
+                
+            <div class="folder-front">
+                <div class="taxo-text">
+                    <div>Docker教程</div>
+                    <div class="jipian">1 篇</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+
+<div class="taxo-col">
     <a href="https://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/">
         <div class="taxo-card">
             <div class="folder-rear"></div>
@@ -326,32 +341,32 @@
                     /posts/
                 '>
             <p>文章</p>
-            <p>1</p>
+            <p>2</p>
         </a>
         <a href='
                     /categories/
                 '>
             <p>分类</p>
-            <p>1</p>
+            <p>2</p>
         </a>
         <a href='
                     /tags/
                 '>
             <p>标签</p>
-            <p>2</p>
+            <p>6</p>
         </a>
     </div>
 
-    <a href="https://github.com/smwhff" target="_blank">
+    <a href="https://github.com/smwhff">
         <div class="follow">Follow Me</div>
     </a>
     <div class="link">
         
-        <a href="https://github.com/smwhff" class="link-item is-hidden-desktop" title="GitHub" target="_blank">
+        <a href="https://github.com/smwhff" class="link-item is-hidden-desktop" title="GitHub">
             <span class="icon"><i class='fa fa-github'></i></span>
         </a>
         
-        <a href="https://www.youtube.com" class="link-item is-hidden-desktop" title="YouTube" target="_blank">
+        <a href="https://www.youtube.com" class="link-item is-hidden-desktop" title="YouTube">
             <span class="icon"><i class='fa fa-youtube'></i></span>
         </a>
         
@@ -379,6 +394,26 @@
     </div>
     <div class="list">
         
+            <a href="https://SMWHff.com/posts/deploying_docker_on_centos/">
+                
+<a href="https://SMWHff.com/posts/deploying_docker_on_centos/">
+    <div class="list-item">
+        <div class="icon-other-root">
+            
+                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
+            
+        </div>
+        <div class="list-right">
+            <div class="other-title">
+                CentOS 部署 Docker 环境教程
+            </div>
+            <div class="other-summary">1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &#34;registry-mirrors&#34;: [&#34;https://s2nni631.</div>
+            <div class="other-date">2023-1-18</div>
+        </div>
+    </div>
+</a>
+            </a>
+        
             <a href="https://SMWHff.com/posts/%E7%A5%9E%E6%A2%A6%E9%A2%82/">
                 
 <a href="https://SMWHff.com/posts/%E7%A5%9E%E6%A2%A6%E9%A2%82/">
@@ -392,9 +427,17 @@
             <div class="other-title">
                 神梦颂
             </div>
-            <div class="other-summary">神梦颂
+            <div class="other-summary">::: tabs#install
+@tab 中文
+《神梦颂》
 一梦醒来以千年，梦中神寄托万事。
-杯酒在手谁堪交， 仗剑江湖梦以远。</div>
+杯酒在手谁堪交， 仗剑江湖梦以远。
+@tab 英文
+《A Dream&rsquo;s Song》
+Awakening from a dream spanning a thousand years,
+In that dream the gods placed all things.
+With wine cup in hand, who dares to make a toast?
+With sword in hand, my dreams roam far on rivers and lakes.</div>
             <div class="other-date">2023-1-4</div>
         </div>
     </div>
@@ -478,11 +521,14 @@
     
     
 
+    
+    
+
 
 <script type="text/javascript">
     var mode_custom = "auto";
-    var postsCount =  1 ;
-    var arrPosts = [{"link":"https://SMWHff.com/posts/%E7%A5%9E%E6%A2%A6%E9%A2%82/","plain":" 神梦颂\n一梦醒来以千年，梦中神寄托万事。\n杯酒在手谁堪交， 仗剑江湖梦以远。\n","pubDate":"2023-01-04","title":"神梦颂"}];
+    var postsCount =  2 ;
+    var arrPosts = [{"link":"https://SMWHff.com/posts/deploying_docker_on_centos/","plain":"1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { \u0026#34;registry-mirrors\u0026#34;: [\u0026#34;https://s2nni631.mirror.aliyuncs.com\u0026#34;] } 7. 重载 Docker 的配置文件 1 systemctl daemon-reload 8. 重启 Docker 1 systemctl restart docker 9. 查看配置 1 docker info ","pubDate":"2023-01-18","title":"CentOS 部署 Docker 环境教程"},{"link":"https://SMWHff.com/posts/%E7%A5%9E%E6%A2%A6%E9%A2%82/","plain":"::: tabs#install\n@tab 中文\n《神梦颂》\n一梦醒来以千年，梦中神寄托万事。\n杯酒在手谁堪交， 仗剑江湖梦以远。\n@tab 英文\n《A Dream\u0026rsquo;s Song》\nAwakening from a dream spanning a thousand years,\nIn that dream the gods placed all things.\nWith wine cup in hand, who dares to make a toast?\nWith sword in hand, my dreams roam far on rivers and lakes.\n:::\n","pubDate":"2023-01-04","title":"神梦颂"}];
     var search_theEnd = "到底了";
     var search_nothing = "什么也没找到";
     var search_found = "找到";

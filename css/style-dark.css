@@ -454,8 +454,7 @@ p > code {
     text-shadow: -1px -1px 1px transparent;
 }
 
-.JQTabs.option-list > ul > li {
-    background: linear-gradient( rgba(var(--bgc-2-rgb), 0.5),  var(--bgc-2) 60% );
-    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
-    background-color: rgb(240, 240, 240);
+/* tabs */
+.tabs-header > span {
+    color: var(--color);
 }
