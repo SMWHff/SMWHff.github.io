@@ -6,12 +6,11 @@
     <description>Recent content in Linux on SMWHff&#39;s Blog | 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 13:02:28 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CentOS 部署 Docker 环境教程</title>
       <link>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</link>
-      <pubDate>Wed, 18 Jan 2023 13:02:28 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</guid>
       <description>1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://s2nni631.</description>
     </item>

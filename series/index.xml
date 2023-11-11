@@ -6,19 +6,25 @@
     <description>Recent content in Series on SMWHff&#39;s Blog | 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 13:02:28 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker教程</title>
       <link>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Wed, 18 Jan 2023 13:02:28 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git教程</title>
+      <link>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>神梦颂</title>
       <link>https://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/</link>
-      <pubDate>Wed, 04 Jan 2023 18:22:13 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/</guid>
       <description></description>
     </item>

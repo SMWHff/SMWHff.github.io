@@ -3,14 +3,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 神梦博客 | CentOS 部署 Docker 环境教程</title>
-    <meta name="description" content="1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &#34;registry-mirrors&#34;: [&#34;https://s2nni631. ">
-    <link rel="canonical" href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/" />
+    <title>SMWHff&#39;s Blog | 神梦博客 | 神梦颂</title>
+    <meta name="description" content="::: tabs
+@tab 中文
+《神梦颂》
+一梦醒来以千年，梦中神寄托万事。
+杯酒在手谁堪交， 仗剑江湖梦以远。
+@tab 英文
+《A Dream&rsquo;s Song》
+Awakening from a dream spanning a thousand years,
+In that dream the gods placed all things.
+With wine cup in hand, who dares to make a toast?
+With sword in hand, my dreams roam far on rivers and lakes. ">
+    <link rel="canonical" href="https://SMWHff.com/posts/dreamsong/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="CentOS 部署 Docker 环境教程" />
-<meta property="og:description" content="1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &#34;registry-mirrors&#34;: [&#34;https://s2nni631." />
+    <meta property="og:title" content="神梦颂" />
+<meta property="og:description" content="::: tabs
+@tab 中文
+《神梦颂》
+一梦醒来以千年，梦中神寄托万事。
+杯酒在手谁堪交， 仗剑江湖梦以远。
+@tab 英文
+《A Dream&rsquo;s Song》
+Awakening from a dream spanning a thousand years,
+In that dream the gods placed all things.
+With wine cup in hand, who dares to make a toast?
+With sword in hand, my dreams roam far on rivers and lakes." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://SMWHff.com/posts/docker/deploying_docker_on_centos/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://SMWHff.com/posts/dreamsong/" /><meta property="article:section" content="posts" />
 
 <meta property="article:modified_time" content="2023-11-12T04:31:51+08:00" />
 
@@ -18,8 +38,18 @@
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="CentOS 部署 Docker 环境教程"/>
-<meta name="twitter:description" content="1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &#34;registry-mirrors&#34;: [&#34;https://s2nni631."/>
+<meta name="twitter:title" content="神梦颂"/>
+<meta name="twitter:description" content="::: tabs
+@tab 中文
+《神梦颂》
+一梦醒来以千年，梦中神寄托万事。
+杯酒在手谁堪交， 仗剑江湖梦以远。
+@tab 英文
+《A Dream&rsquo;s Song》
+Awakening from a dream spanning a thousand years,
+In that dream the gods placed all things.
+With wine cup in hand, who dares to make a toast?
+With sword in hand, my dreams roam far on rivers and lakes."/>
 
     
         
@@ -219,11 +249,11 @@
     <div class="hero">
         
             <div class="hero-img">
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-7.jpg" alt="">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt="">
             </div>
         
         <div class="hero-content">
-            <div class="hero-title">CentOS 部署 Docker 环境教程</div>
+            <div class="hero-title">神梦颂</div>
             <div class="hero-subtitle"></div>
             <div class="hero-date">
                     <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 0001-1-1 &nbsp;</span>
@@ -232,14 +262,14 @@
                         收录于:
                         
                             <a href='
-                                /categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B
+                                /categories/%E8%AF%97%E6%AD%8C
                             '>
-                                技术教程
+                                诗歌
                             </a>
                     </span>    
             </div>
             <div class="timelong">
-                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 76 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 53 &nbsp;</span>
                 <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 1 分钟 &nbsp;</span>
                 <span class="no-wrap"><i class="fa fa-eye"></i> 阅读量: <span id="busuanzi_value_page_pv"></span></span>
             </div>
@@ -276,102 +306,18 @@
     
         <div class="content">
             <div class="content-self">
-                <h1 id="1-安装依赖">1. 安装依赖：</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yum -y install yum-utils device-mapper-persistent-data lvm2
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="2-添加-yum-源">2. 添加 yum 源：</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="3-安装-docker">3. 安装 Docker</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">yum -y install docker-ce
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="4-启动-docker-服务">4. 启动 Docker 服务</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">systemctl start docker
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="5-开机自启-docker-服务">5. 开机自启 Docker 服务</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">systemctl <span class="nb">enable</span> docker
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="6-添加-docker-源">6. 添加 Docker 源</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">vim /etc/docker/daemon.json
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;registry-mirrors&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;https://s2nni631.mirror.aliyuncs.com&#34;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="7-重载-docker-的配置文件">7. 重载 Docker 的配置文件</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">systemctl daemon-reload
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="8-重启-docker">8. 重启 Docker</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">systemctl restart docker
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h1 id="9-查看配置">9. 查看配置</h1>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">docker info
-</span></span></code></pre></td></tr></table>
-</div>
-</div><hr>
-<p>【作者】：<a href="https://smwhff.com/about">神梦无痕</a><br>
-【出处】：<a href="https://smwhff.com/posts/docker/deploying_docker_on_centos">https://smwhff.com</a></p>
+                <p>::: tabs</p>
+<p>@tab 中文</p>
+<p>        《神梦颂》</p>
+<p>  一梦醒来以千年，梦中神寄托万事。</p>
+<p>  杯酒在手谁堪交， 仗剑江湖梦以远。</p>
+<p>@tab 英文</p>
+<p>        《A Dream&rsquo;s Song》</p>
+<p>Awakening from a dream spanning a thousand years,</p>
+<p>In that dream the gods placed all things.</p>
+<p>With wine cup in hand, who dares to make a toast?</p>
+<p>With sword in hand, my dreams roam far on rivers and lakes.</p>
+<p>:::</p>
 
             </div>
             
@@ -380,9 +326,9 @@
                     <span class="down-type-item">
                         <div class="type-text">
                             <a href='
-                                        /tags/docker
+                                        /tags/%E7%A5%9E%E6%A2%A6
                                     '>
-                                <i class="fa fa-tag"></i> Docker
+                                <i class="fa fa-tag"></i> 神梦
                             </a>
                         </div>
                     </span>
@@ -390,29 +336,9 @@
                     <span class="down-type-item">
                         <div class="type-text">
                             <a href='
-                                        /tags/centos
+                                        /tags/%E8%AF%97
                                     '>
-                                <i class="fa fa-tag"></i> CentOS
-                            </a>
-                        </div>
-                    </span>
-                    
-                    <span class="down-type-item">
-                        <div class="type-text">
-                            <a href='
-                                        /tags/linux
-                                    '>
-                                <i class="fa fa-tag"></i> Linux
-                            </a>
-                        </div>
-                    </span>
-                    
-                    <span class="down-type-item">
-                        <div class="type-text">
-                            <a href='
-                                        /tags/%E6%95%99%E7%A8%8B
-                                    '>
-                                <i class="fa fa-tag"></i> 教程
+                                <i class="fa fa-tag"></i> 诗
                             </a>
                         </div>
                     </span>
@@ -426,24 +352,13 @@
                     
     
         
-        <a href="https://SMWHff.com/posts/dreamsong/" class="pre">
-            <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
-            <div class="pre-title-root">
-                <span>神梦颂</span>
-            </div>
-        </a>
+            <a href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/" class="next next-first" style="text-align: center;">
+                <div class="next-title-root">
+                    <span>CentOS 部署 Docker 环境教程</span>
+                </div>
+                <span class="next-icon"><i class="fa fa-hand-o-right"></i></span>
+            </a>
         
-
-        
-        <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/" class="next">
-            <div class="next-title-root">
-                <span>【Windows】Git 环境配置和上传 GitHub</span>
-            </div>
-            <span class="next-icon"><i class="fa fa-hand-o-right"></i></span>
-        </a>
-        
-
-    
     
 
                 </div>
@@ -557,33 +472,6 @@
         <div class="xian"></div>
     </div>
     <div class="list">
-        
-            <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
-                
-<a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                【Windows】Git 环境配置和上传 GitHub
-            </div>
-            <div class="other-summary">Git 环境配置（Windows） 零基础、小白都能学会
-一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
-二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
-腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
-三、Git 全局配置 安装包安装完后，就可以在桌面右键
-点击 Git Bash Here 选项
-就可以开始输入命令了
-输入配置账号命令 1 git config --global user.name &#34;你的账号&#34; 输入配置邮箱命令 1 git config --global user.email &#34;你的邮箱地址&#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &#34;你的邮箱地址&#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</div>
-            <div class="other-date">0001-1-1</div>
-        </div>
-    </div>
-</a>
-            </a>
         
     </div>
 </div>
