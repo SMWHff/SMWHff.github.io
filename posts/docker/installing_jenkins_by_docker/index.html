@@ -3,20 +3,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | 诗歌</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="https://SMWHff.com/categories/%E8%AF%97%E6%AD%8C/" />
+    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | 通过 Docker 安装 Jenkins 平台教程</title>
+    <meta name="description" content="通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境
+Github仓库：https://hub.docker.com/r/jenkins/jenkins/
+1. 安装 Jenkins 1 docker pull jenkins/jenkins 2. 创建 Jenkins 目录 1 mkdir /opt/jenkins_smwhff 3. 挂载目录权限 chmod 777 /opt/jenkins_smwhff 4. 创建实例容器 1 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /opt/jenkins_smwhff:/var/jenkins_home jenkins/jenkins:l 5. 通过日志查看进度 docker logs -f jenkins 5. 查看管理员密码 cat /opt/jenkins_smwhff/secrets/initialAdminPassword 4. ">
+    <link rel="canonical" href="https://SMWHff.com/posts/docker/installing_jenkins_by_docker/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="诗歌" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://SMWHff.com/categories/%E8%AF%97%E6%AD%8C/" />
+    <meta property="og:title" content="通过 Docker 安装 Jenkins 平台教程" />
+<meta property="og:description" content="通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境
+Github仓库：https://hub.docker.com/r/jenkins/jenkins/
+1. 安装 Jenkins 1 docker pull jenkins/jenkins 2. 创建 Jenkins 目录 1 mkdir /opt/jenkins_smwhff 3. 挂载目录权限 chmod 777 /opt/jenkins_smwhff 4. 创建实例容器 1 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /opt/jenkins_smwhff:/var/jenkins_home jenkins/jenkins:l 5. 通过日志查看进度 docker logs -f jenkins 5. 查看管理员密码 cat /opt/jenkins_smwhff/secrets/initialAdminPassword 4." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://SMWHff.com/posts/docker/installing_jenkins_by_docker/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-18T13:15:50+08:00" />
+<meta property="article:modified_time" content="2023-11-18T15:59:33+08:00" />
+
 
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="诗歌"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="通过 Docker 安装 Jenkins 平台教程"/>
+<meta name="twitter:description" content="通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境
+Github仓库：https://hub.docker.com/r/jenkins/jenkins/
+1. 安装 Jenkins 1 docker pull jenkins/jenkins 2. 创建 Jenkins 目录 1 mkdir /opt/jenkins_smwhff 3. 挂载目录权限 chmod 777 /opt/jenkins_smwhff 4. 创建实例容器 1 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /opt/jenkins_smwhff:/var/jenkins_home jenkins/jenkins:l 5. 通过日志查看进度 docker logs -f jenkins 5. 查看管理员密码 cat /opt/jenkins_smwhff/secrets/initialAdminPassword 4."/>
 
     
         
@@ -205,29 +214,41 @@
 
 
         <div id="content">
-    
 
 
 
 
-
-
-    
-        
-    
 
 
 
 
     <div class="hero">
         
-            
-                <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-9.jpg" alt="">
-                </div>
-            
+            <div class="hero-img">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-7.jpg" alt="">
+            </div>
+        
         <div class="hero-content">
-            <h1 class="hero-title">分类: 诗歌</h1>
+            <div class="hero-title">通过 Docker 安装 Jenkins 平台教程</div>
+            <div class="hero-subtitle"></div>
+            <div class="hero-date">
+                    <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-folder"></i>
+                        收录于:
+                        
+                            <a href='
+                                /categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B
+                            '>
+                                技术教程
+                            </a>
+                    </span>    
+            </div>
+            <div class="timelong">
+                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 59 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 1 分钟 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-eye"></i> 阅读量: <span id="busuanzi_value_page_pv"></span></span>
+            </div>
         </div>
     </div>
 
@@ -246,7 +267,7 @@
     
 
 
-<div class="terms-body">
+<div class="content-root">
     <div class="long">
         <button class="tosides-1 text-wbd">
             <i class="fa fa-arrow-right"></i>
@@ -259,97 +280,154 @@
         </button>
     </div>
     
-        <div class="terms-row">
+        <div class="content">
+            <div class="content-self">
+                <h1 id="通过-docker-安装-jenkins-平台教程挂载目录">通过 Docker 安装 Jenkins 平台教程（挂载目录）</h1>
+<blockquote>
+<p><em>前提条件：需要先部署好 Docker 环境</em></p>
+<p>Github仓库：https://hub.docker.com/r/jenkins/jenkins/</p>
+</blockquote>
+<h2 id="1-安装-jenkins">1. 安装 Jenkins</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">docker</span> <span class="n">pull</span> <span class="n">jenkins</span><span class="o">/</span><span class="n">jenkins</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="2-创建-jenkins-目录">2. 创建 Jenkins 目录</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">mkdir</span> <span class="sr">/opt/</span><span class="n">jenkins_smwhff</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="3-挂载目录权限">3. 挂载目录权限</h2>
+<pre tabindex="0"><code>chmod 777 /opt/jenkins_smwhff
+</code></pre><h2 id="4-创建实例容器">4. 创建实例容器</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">d</span> <span class="o">--</span><span class="nb">name</span> <span class="n">jenkins</span> <span class="o">-</span><span class="nb">p</span> <span class="mi">8080</span><span class="p">:</span><span class="mi">8080</span> <span class="o">-</span><span class="nb">p</span> <span class="mi">50000</span><span class="p">:</span><span class="mi">50000</span> <span class="o">-</span><span class="n">v</span> <span class="sr">/opt/</span><span class="ss">jenkins_smwhff</span><span class="p">:</span><span class="sr">/var/</span><span class="n">jenkins_home</span> <span class="n">jenkins</span><span class="o">/</span><span class="ss">jenkins</span><span class="p">:</span><span class="n">l</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="5-通过日志查看进度">5. 通过日志查看进度</h2>
+<pre tabindex="0"><code>docker logs -f jenkins
+</code></pre><h2 id="5-查看管理员密码">5. 查看管理员密码</h2>
+<pre tabindex="0"><code>cat /opt/jenkins_smwhff/secrets/initialAdminPassword
+</code></pre><h2 id="4-打开平台网址">4. 打开平台网址</h2>
+<p>本机地址：http://localhost:8080
+管理密码：（把之前查到的管理员密码输进去）</p>
+<h2 id="5-选择安装推荐插件">5. 选择安装推荐插件</h2>
+
+            </div>
             
-            <div class="terms-root">
-                
-                
-
-
-<div class="card-large">
-    <div class="card-large-img">
-
-        
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-9.jpg" alt='图片加载失败'>
-        
-    </div>
-    <div class="card-large-content">
-        <div class="up-title"><a href="https://SMWHff.com/posts/dreamsong/">神梦颂</a></div>
-        <div class="up-date">
-            <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 0001-1-1 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-folder"></i>
-                
-                    收录于:
+                <div class="tags">
                     
-                        <a href='
-                                        /categories/%E8%AF%97%E6%AD%8C
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/docker
                                     '>
-                                诗歌
+                                <i class="fa fa-tag"></i> Docker
                             </a>
-                
-            </span>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/jenkins
+                                    '>
+                                <i class="fa fa-tag"></i> Jenkins
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/centos
+                                    '>
+                                <i class="fa fa-tag"></i> CentOS
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/linux
+                                    '>
+                                <i class="fa fa-tag"></i> Linux
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/%E6%95%99%E7%A8%8B
+                                    '>
+                                <i class="fa fa-tag"></i> 教程
+                            </a>
+                        </div>
+                    </span>
+                    
+                </div>
+            
         </div>
-        <div class="down-summary">::: tabs
-@tab 中文
-《神梦颂》
-一梦醒来以千年，梦中神寄托万事。
-杯酒在手谁堪交， 仗剑江湖梦以远。
-@tab 英文
-《A Dream&rsquo;s Song》
-Awakening from a dream spanning a thousand years,
-In that dream the gods placed all things.
-With wine cup in hand, who dares to make a toast?
-With sword in hand, my dreams roam far on rivers and lakes.</div>
-    </div>
-    <div class="card-readmore">
-        <a href="https://SMWHff.com/posts/dreamsong/">
-            <span><i class="fa fa-arrow-right"></i></span>
+        
+            
+                <div class="pre-next">
+                    
+    
+        
+        <a href="https://SMWHff.com/posts/dreamsong/" class="pre">
+            <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
+            <div class="pre-title-root">
+                <span>神梦颂</span>
+            </div>
         </a>
-    </div>
-</div>
+        
 
-
+        
+        <a href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/" class="next">
+            <div class="next-title-root">
+                <span>CentOS 部署 Docker 环境教程</span>
+            </div>
+            <span class="next-icon"><i class="fa fa-hand-o-right"></i></span>
+        </a>
+        
 
     
+    
 
+                </div>
+            
+        
+    
+</div>
 
-    <div class="down-type">
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E7%A5%9E%E6%A2%A6
-                        '>
-                    <i class="fa fa-tag"></i> 神梦
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E8%AF%97
-                        '>
-                    <i class="fa fa-tag"></i> 诗
-                </a>
-            </div>
-        </span>
-        
-    </div>
-
-<div class="dang"></div>
-            </div>
+    
+        <div class="content-last">
+            
+                <button class="aixin content-last-item efct-button">
+                    <i class="fa fa-heart"></i>
+                </button>
+            
+            
+                <button class="pinglun content-last-item efct-button">
+                    <i class="fa fa-comment"></i>
+                </button>
             
         </div>
     
-</div>
 
 
             </div>
@@ -357,6 +435,11 @@ With sword in hand, my dreams roam far on rivers and lakes.</div>
                 
 <div class="zhuti-r-0">
     <div class="zhuti-r-1">
+        
+            <div class="button-r">
+                <button class="button-mulu efct-button" type="button"><span><i class="fa fa-bars"></i></span><span class="bars-text"> 目录</span></button>
+                <button class="button-comment efct-button" type="button"><span><i class="fa fa-comment"></i></span><span class="comment-text"> 评论</span></button>
+            </div>
         
         <div id="r1">
             
@@ -426,13 +509,36 @@ With sword in hand, my dreams roam far on rivers and lakes.</div>
 
 
 
+    
+    
+
 
 <div class="other">
     <div class="other-up">
-        <div class="other-qita text-wbd">最新文章</div>
+        <div class="other-qita text-wbd">相关文章</div>
         <div class="xian"></div>
     </div>
     <div class="list">
+        
+            <a href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/">
+                
+<a href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/">
+    <div class="list-item">
+        <div class="icon-other-root">
+            
+                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
+            
+        </div>
+        <div class="list-right">
+            <div class="other-title">
+                CentOS 部署 Docker 环境教程
+            </div>
+            <div class="other-summary">1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &#34;registry-mirrors&#34;: [&#34;https://s2nni631.</div>
+            <div class="other-date">2023-1-18</div>
+        </div>
+    </div>
+</a>
+            </a>
         
             <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
                 
@@ -461,89 +567,71 @@ With sword in hand, my dreams roam far on rivers and lakes.</div>
 </a>
             </a>
         
-            <a href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/">
-                
-<a href="https://SMWHff.com/posts/docker/deploying_docker_on_centos/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                CentOS 部署 Docker 环境教程
-            </div>
-            <div class="other-summary">1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &#34;registry-mirrors&#34;: [&#34;https://s2nni631.</div>
-            <div class="other-date">2023-1-18</div>
-        </div>
-    </div>
-</a>
-            </a>
-        
-            <a href="https://SMWHff.com/posts/docker/installing_jenkins_by_docker/">
-                
-<a href="https://SMWHff.com/posts/docker/installing_jenkins_by_docker/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                通过 Docker 安装 Jenkins 平台教程
-            </div>
-            <div class="other-summary">通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境
-Github仓库：https://hub.docker.com/r/jenkins/jenkins/
-1. 安装 Jenkins 1 docker pull jenkins/jenkins 2. 创建 Jenkins 目录 1 mkdir /opt/jenkins_smwhff 3. 挂载目录权限 chmod 777 /opt/jenkins_smwhff 4. 创建实例容器 1 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /opt/jenkins_smwhff:/var/jenkins_home jenkins/jenkins:l 5. 通过日志查看进度 docker logs -f jenkins 5. 查看管理员密码 cat /opt/jenkins_smwhff/secrets/initialAdminPassword 4.</div>
-            <div class="other-date">2023-1-18</div>
-        </div>
-    </div>
-</a>
-            </a>
-        
-            <a href="https://SMWHff.com/posts/dreamsong/">
-                
-<a href="https://SMWHff.com/posts/dreamsong/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default-9.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                神梦颂
-            </div>
-            <div class="other-summary">::: tabs
-@tab 中文
-《神梦颂》
-一梦醒来以千年，梦中神寄托万事。
-杯酒在手谁堪交， 仗剑江湖梦以远。
-@tab 英文
-《A Dream&rsquo;s Song》
-Awakening from a dream spanning a thousand years,
-In that dream the gods placed all things.
-With wine cup in hand, who dares to make a toast?
-With sword in hand, my dreams roam far on rivers and lakes.</div>
-            <div class="other-date">0001-1-1</div>
-        </div>
-    </div>
-</a>
-            </a>
-        
     </div>
 </div>
         </div>
         <div id="r2">
-            
+            <div id="vcomments"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: "X6rUDOOaUD5H1LncXkFIk7Dt-gzGzoHsz",
+        appKey: "FdqAnKCXdXAphsYWFG6V4JXo",
+        avatar: "robohash",
+        placeholder: "输入你的评论",
+        requiredFields: ["nick","mail"],
+        visitor:  true ,
+        pageSize:  5 ,
+});
+</script>
+
         </div> 
     </div>
 </div>
 
             </div>
         </div>
+    </div>
+</div>
+
+    
+
+<div class="sponsor">
+    <div class="sponsor-self">
+        <div class="sponsor-title">赞赏</div>
+        <div class="sponsor-btn">
+            
+                
+                    
+                        <div class="sponsor-btn-1 border-r">微信</div>
+                    
+                
+                
+            
+                
+                    
+                        <div class="sponsor-btn-2 border-l">支付宝</div>
+                    
+                
+                
+            
+        </div>
+        
+        <div class="sponsor-img">
+            
+                
+                    <img class="sponsor-img-1" src="/images/sponsor/wx.jpg" alt="">
+                
+                
+            
+                
+                    <img class="sponsor-img-2" src="/images/sponsor/zfb.jpg" alt="" style="display: none;">
+                
+                
+            
+        </div>
+        <div class="cancel efct-button">取消</div>
     </div>
 </div>
 

@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on SMWHff&#39;s Blog | 神梦博客</title>
+    <title>Series on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</title>
     <link>https://SMWHff.com/series/</link>
-    <description>Recent content in Series on SMWHff&#39;s Blog | 神梦博客</description>
+    <description>Recent content in Series on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Wed, 18 Jan 2023 13:15:50 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker教程</title>
       <link>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
       <guid>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Git教程</title>
       <link>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
       <guid>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
