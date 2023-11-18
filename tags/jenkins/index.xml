@@ -15,7 +15,7 @@
       <guid>https://SMWHff.com/posts/docker/installing_jenkins_by_docker/</guid>
       <description>通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境
 Github仓库：https://hub.docker.com/r/jenkins/jenkins/
-1. 安装 Jenkins 1 docker pull jenkins/jenkins 2. 创建 Jenkins 目录 1 mkdir /opt/jenkins_smwhff 3. 挂载目录权限 chmod 777 /opt/jenkins_smwhff 4. 创建实例容器 1 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /opt/jenkins_smwhff:/var/jenkins_home jenkins/jenkins:l 5. 通过日志查看进度 docker logs -f jenkins 5. 查看管理员密码 cat /opt/jenkins_smwhff/secrets/initialAdminPassword 4.</description>
+1. 安装 Jenkins 1 docker pull jenkins/jenkins 2. 创建 Jenkins 目录 1 mkdir /opt/jenkins_smwhff 3. 挂载目录权限 1 chmod 777 /opt/jenkins_smwhff 4. 创建实例容器 1 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v /opt/jenkins_smwhff:/var/jenkins_home jenkins/jenkins:l 5. 通过日志查看进度 1 docker logs -f jenkins 5.</description>
     </item>
   </channel>
 </rss>

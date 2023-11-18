@@ -3,19 +3,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | MySQL</title>
+    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | Nginx</title>
     <meta name="description" content=" ">
-    <link rel="canonical" href="https://SMWHff.com/tags/mysql/" />
+    <link rel="canonical" href="https://SMWHff.com/tags/nginx/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="MySQL" />
+    <meta property="og:title" content="Nginx" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://SMWHff.com/tags/mysql/" />
+<meta property="og:url" content="https://SMWHff.com/tags/nginx/" />
 
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="MySQL"/>
+<meta name="twitter:title" content="Nginx"/>
 <meta name="twitter:description" content=""/>
 
     
@@ -227,7 +227,7 @@
                 </div>
             
         <div class="hero-content">
-            <h1 class="hero-title">标签: MySQL</h1>
+            <h1 class="hero-title">标签: Nginx</h1>
         </div>
     </div>
 
@@ -274,7 +274,7 @@
         
     </div>
     <div class="card-large-content">
-        <div class="up-title"><a href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/">通过 Docker 安装 MySQL 服务教程</a></div>
+        <div class="up-title"><a href="https://SMWHff.com/posts/docker/installing_nginx_by_docker/">通过 Docker 安装 Nginx 服务教程</a></div>
         <div class="up-date">
             <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
             <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
@@ -290,13 +290,13 @@
                 
             </span>
         </div>
-        <div class="down-summary">通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
-1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
-1 docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 1 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &lt;回车键&gt;，输入密码 123456 按 &lt;回车键&gt; 登录数据库
-1 mysql -u root -p 4.</div>
+        <div class="down-summary">通过 Docker 安装 Nginx 服务教程 前提条件：需要先部署好 Docker 环境
+1. 运行 nginx 服务 默认端口：80 默认目录：/opt/nginx/html
+1 docker run -d --name nginx -p 80:80 -v /opt/nginx/html:usr/share/nginx/html nginx:1.17.9 2. 创建一个静态网页 在 /opt/nginx/html 目录下创建一个静态网页文件
+1 vim /opt/nginx/html/index.html 1 2 3 4 5 6 7 8 9 10 &lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta charset=&#34;UTF-8&#34;&gt; &lt;title&gt;Nginx 演示&lt;/title&gt; &lt;/head&gt; &lt;body&gt; &lt;h1&gt;我是一个静态网页&lt;/h1&gt; &lt;/body&gt; &lt;/html&gt; 3.</div>
     </div>
     <div class="card-readmore">
-        <a href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/">
+        <a href="https://SMWHff.com/posts/docker/installing_nginx_by_docker/">
             <span><i class="fa fa-arrow-right"></i></span>
         </a>
     </div>
@@ -328,9 +328,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/mysql
+                            /tags/nginx
                         '>
-                    <i class="fa fa-tag"></i> MySQL
+                    <i class="fa fa-tag"></i> Nginx
                 </a>
             </div>
         </span>
