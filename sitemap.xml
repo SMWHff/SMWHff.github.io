@@ -2,68 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
     <loc>https://SMWHff.com/categories/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/tags/centos/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/tags/docker/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/tags/jira/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/tags/linux/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/posts/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/series/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/tags/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/posts/docker/installing_jira_by_docker/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
+  </url><url>
+    <loc>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</loc>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</loc>
     <lastmod>2023-11-18T15:59:33+08:00</lastmod>
   </url><url>
-    <loc>https://SMWHff.com/tags/docker/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
     <loc>https://SMWHff.com/tags/git/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/tags/github/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/tags/jenkins/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/tags/linux/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/posts/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/series/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/tags/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/tags/windows/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
-  </url><url>
-    <loc>https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/posts/docker/installing_jenkins_by_docker/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/tags/%E6%96%B0%E6%89%8B/</loc>
-    <lastmod>2023-11-18T15:59:33+08:00</lastmod>
+    <lastmod>2023-11-18T16:53:20+08:00</lastmod>
   </url><url>
     <loc>https://SMWHff.com/about/</loc>
     <lastmod>2023-01-06T10:06:15+08:00</lastmod>

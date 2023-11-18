@@ -3,19 +3,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | Git教程</title>
+    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | Jira</title>
     <meta name="description" content=" ">
-    <link rel="canonical" href="https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/" />
+    <link rel="canonical" href="https://SMWHff.com/tags/jira/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="Git教程" />
+    <meta property="og:title" content="Jira" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/" />
+<meta property="og:url" content="https://SMWHff.com/tags/jira/" />
 
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Git教程"/>
+<meta name="twitter:title" content="Jira"/>
 <meta name="twitter:description" content=""/>
 
     
@@ -223,11 +223,11 @@
         
             
                 <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-19.jpg" alt="">
+                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt="">
                 </div>
             
         <div class="hero-content">
-            <h1 class="hero-title">系列: Git教程</h1>
+            <h1 class="hero-title">标签: Jira</h1>
         </div>
     </div>
 
@@ -270,11 +270,11 @@
     <div class="card-large-img">
 
         
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-19.jpg" alt='图片加载失败'>
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt='图片加载失败'>
         
     </div>
     <div class="card-large-content">
-        <div class="up-title"><a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">【Windows】Git 环境配置和上传 GitHub</a></div>
+        <div class="up-title"><a href="https://SMWHff.com/posts/docker/installing_jira_by_docker/">通过 Docker 安装 Jira 平台教程</a></div>
         <div class="up-date">
             <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
             <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
@@ -290,17 +290,12 @@
                 
             </span>
         </div>
-        <div class="down-summary">Git 环境配置（Windows） 零基础、小白都能学会
-一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
-二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
-腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
-三、Git 全局配置 安装包安装完后，就可以在桌面右键
-点击 Git Bash Here 选项
-就可以开始输入命令了
-输入配置账号命令 1 git config --global user.name &#34;你的账号&#34; 输入配置邮箱命令 1 git config --global user.email &#34;你的邮箱地址&#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &#34;你的邮箱地址&#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</div>
+        <div class="down-summary">通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境
+1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默认密码：123456
+1 2 3 docker run -d -p 3306:3306 \ --name=mysql_jira --privileged=true -u root \ -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7 2. 启动 MySQL 登录 MySQL 1 2 3 docker run -it --link mysql_jira:mysql --rm mysql \ sh -c &#39;exec mysql -h&#34;$MYSQL_PORT_3306_TCP_ADDR&#34; \ -P&#34;$MYSQL_PORT_3306_TCP_PORT&#34; -u root -p&#34;$MYSQL_ENV_MYSQL_ROOT_PASSWORD&#34;&#39; 创建数据库 create database jira default character set utf8 collate utf8_bin; 创建用户并授权 create user `jira`@`%` identified by &#39;jira&#39;; grant all on *.</div>
     </div>
     <div class="card-readmore">
-        <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
+        <a href="https://SMWHff.com/posts/docker/installing_jira_by_docker/">
             <span><i class="fa fa-arrow-right"></i></span>
         </a>
     </div>
@@ -319,9 +314,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/github
+                            /tags/docker
                         '>
-                    <i class="fa fa-tag"></i> GitHub
+                    <i class="fa fa-tag"></i> Docker
                 </a>
             </div>
         </span>
@@ -332,9 +327,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/git
+                            /tags/jira
                         '>
-                    <i class="fa fa-tag"></i> Git
+                    <i class="fa fa-tag"></i> Jira
                 </a>
             </div>
         </span>
@@ -345,9 +340,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/windows
+                            /tags/centos
                         '>
-                    <i class="fa fa-tag"></i> Windows
+                    <i class="fa fa-tag"></i> CentOS
                 </a>
             </div>
         </span>
@@ -358,22 +353,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/%E6%96%B0%E6%89%8B
+                            /tags/linux
                         '>
-                    <i class="fa fa-tag"></i> 新手
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E5%85%A5%E9%97%A8
-                        '>
-                    <i class="fa fa-tag"></i> 入门
+                    <i class="fa fa-tag"></i> Linux
                 </a>
             </div>
         </span>

@@ -6,8 +6,17 @@
     <description>Recent content in Docker教程 on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 13:15:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2023 13:21:05 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过 Docker 安装 Jira 平台教程</title>
+      <link>https://SMWHff.com/posts/docker/installing_jira_by_docker/</link>
+      <pubDate>Wed, 18 Jan 2023 13:21:05 +0800</pubDate>
+      <guid>https://SMWHff.com/posts/docker/installing_jira_by_docker/</guid>
+      <description>通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境
+1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默认密码：123456
+1 2 3 docker run -d -p 3306:3306 \ --name=mysql_jira --privileged=true -u root \ -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7 2. 启动 MySQL 登录 MySQL 1 2 3 docker run -it --link mysql_jira:mysql --rm mysql \ sh -c &amp;#39;exec mysql -h&amp;#34;$MYSQL_PORT_3306_TCP_ADDR&amp;#34; \ -P&amp;#34;$MYSQL_PORT_3306_TCP_PORT&amp;#34; -u root -p&amp;#34;$MYSQL_ENV_MYSQL_ROOT_PASSWORD&amp;#34;&amp;#39; 创建数据库 create database jira default character set utf8 collate utf8_bin; 创建用户并授权 create user `jira`@`%` identified by &amp;#39;jira&amp;#39;; grant all on *.</description>
+    </item>
     <item>
       <title>CentOS 部署 Docker 环境教程</title>
       <link>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</link>
