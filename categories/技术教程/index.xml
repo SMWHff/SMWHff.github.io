@@ -6,14 +6,31 @@
     <description>Recent content in 技术教程 on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 14:30:21 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Window 安装 Appium 教程</title>
+      <title>Lua编程：掌握字符串处理技巧</title>
+      <link>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</link>
+      <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
+      <guid>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</guid>
+      <description>标题: Lua编程：掌握字符串处理技巧
+作者: 神梦无痕
+邮箱: smwh@vip.qq.com
+版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。
+A、string 库中字符索引 所有的字符索引从前往后是 1, 2, 3...； 从后往前是 -1, -2, -3...。 B、string 库中所有函数直接操作字符串，而是返回一个结果 string.len(s)：返回字符串的长度
+string.lower(s)：变小写
+string.upper(s)：变大写
+string.rep(s,n)：将 s 拷贝 n 份,并连接起来,返回
+string.sub(s,i [,j])：取 s 中从 i 开始到 j 为止的自字符串.默认 j 为长度 -i 表示倒数
+1. string.find(s, pattern, pos) 第1个参数：源字符串 第2个参数：待搜索之模式串
+第3个参数：A hint, 从 pos 位置开始搜索</description>
+    </item>
+    <item>
+      <title>Windows 安装 Appium 教程</title>
       <link>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
       <guid>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</guid>
-      <description>标题: Window 安装 Appium 教程
+      <description>标题: Windows 安装 Appium 教程
 作者: 神梦无痕
 邮箱: smwh@vip.qq.com
 版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。

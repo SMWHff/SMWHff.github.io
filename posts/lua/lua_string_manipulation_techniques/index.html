@@ -3,20 +3,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | Appium教程</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="https://SMWHff.com/series/appium%E6%95%99%E7%A8%8B/" />
+    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | Lua编程：掌握字符串处理技巧</title>
+    <meta name="description" content="文章首先介绍了字符索引的基本概念，然后逐一讲解了string.len、string.lower、string.upper、string.rep和string.sub等函数的用法。重点介绍了string.find、string.gsub和string.gfind等高级字符串处理功能，并详细解析了Lua支持的所有字符类和模式串中的特殊字符。 ">
+    <link rel="canonical" href="https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="Appium教程" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://SMWHff.com/series/appium%E6%95%99%E7%A8%8B/" />
+    <meta property="og:title" content="Lua编程：掌握字符串处理技巧" />
+<meta property="og:description" content="文章首先介绍了字符索引的基本概念，然后逐一讲解了string.len、string.lower、string.upper、string.rep和string.sub等函数的用法。重点介绍了string.find、string.gsub和string.gfind等高级字符串处理功能，并详细解析了Lua支持的所有字符类和模式串中的特殊字符。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-18T15:02:28+08:00" />
+<meta property="article:modified_time" content="2023-11-18T20:15:41+08:00" />
 
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Appium教程"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Lua编程：掌握字符串处理技巧"/>
+<meta name="twitter:description" content="文章首先介绍了字符索引的基本概念，然后逐一讲解了string.len、string.lower、string.upper、string.rep和string.sub等函数的用法。重点介绍了string.find、string.gsub和string.gfind等高级字符串处理功能，并详细解析了Lua支持的所有字符类和模式串中的特殊字符。"/>
 
     
         
@@ -205,29 +207,41 @@
 
 
         <div id="content">
-    
 
 
 
 
-
-
-    
-        
-    
 
 
 
 
     <div class="hero">
         
-            
-                <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-2.jpg" alt="">
-                </div>
-            
+            <div class="hero-img">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default.jpg" alt="">
+            </div>
+        
         <div class="hero-content">
-            <h1 class="hero-title">系列: Appium教程</h1>
+            <div class="hero-title">Lua编程：掌握字符串处理技巧</div>
+            <div class="hero-subtitle">深入探讨 Lua 语言中的 string 库及其方法，提供了详细解读和实用示例。涵盖内容包括字符索引规则、字符串操作函数、模式匹配技术等。</div>
+            <div class="hero-date">
+                    <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-folder"></i>
+                        收录于:
+                        
+                            <a href='
+                                /categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B
+                            '>
+                                技术教程
+                            </a>
+                    </span>    
+            </div>
+            <div class="timelong">
+                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 311 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 2 分钟 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-eye"></i> 阅读量: <span id="busuanzi_value_page_pv"></span></span>
+            </div>
         </div>
     </div>
 
@@ -246,7 +260,7 @@
     
 
 
-<div class="terms-body">
+<div class="content-root">
     <div class="long">
         <button class="tosides-1 text-wbd">
             <i class="fa fa-arrow-right"></i>
@@ -259,158 +273,314 @@
         </button>
     </div>
     
-        <div class="terms-row">
+        <div class="content">
+            <div class="content-self">
+                <blockquote>
+<p>标题: Lua编程：掌握字符串处理技巧<br>
+作者: 神梦无痕<br>
+邮箱: <a href="mailto:smwh@vip.qq.com">smwh@vip.qq.com</a><br>
+版权: 本人所有文章，都遵守“<a href="https://creativecommons.org/licenses/by-nc-sa/2.5/cn/">署名-非商业性使用-相同方式共享 2.5 中国大陆</a>”协议条款。</p>
+</blockquote>
+<h2 id="astring-库中字符索引">A、<code>string</code> 库中字符索引</h2>
+<ul>
+<li>所有的字符索引从前往后是 <code>1, 2, 3...</code>；</li>
+<li>从后往前是 <code>-1, -2, -3...</code>。</li>
+</ul>
+<h2 id="bstring-库中所有函数直接操作字符串而是返回一个结果">B、<code>string</code> 库中所有函数直接操作字符串，而是返回一个结果</h2>
+<blockquote>
+<p><code>string.len(s)</code>：返回字符串的长度<br>
+<code>string.lower(s)</code>：变小写<br>
+<code>string.upper(s)</code>：变大写<br>
+<code>string.rep(s,n)</code>：将 s 拷贝 n 份,并连接起来,返回<br>
+<code>string.sub(s,i [,j])</code>：取 s 中从 i 开始到 j 为止的自字符串.默认 j 为长度 -i 表示倒数</p>
+</blockquote>
+<h3 id="1-stringfinds-pattern-pos">1. <code>string.find(s, pattern, pos)</code></h3>
+<blockquote>
+<p>第1个参数：源字符串 <br>
+第2个参数：待搜索之模式串<br>
+第3个参数：A hint, 从 pos 位置开始搜索<br>
+找到匹配返回：匹配串开始和结束的位置，否则返回 <code>nil</code></p>
+</blockquote>
+<h3 id="2-stringgsubs-pattern-reps">2. <code>string.gsub(s, pattern, reps)</code></h3>
+<blockquote>
+<p>第1个参数：源字符串<br>
+第2个参数：待替换之模式串<br>
+第3个参数：替换为 reps<br>
+返回 结果串 + 匹配数</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">--gsub也可以用拷贝捕获技巧</span>
+</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">string.gsub</span><span class="p">(</span><span class="s2">&#34;hello, world&#34;</span><span class="p">,</span> <span class="s2">&#34;(o)&#34;</span><span class="p">,</span> <span class="s2">&#34;%1-%1&#34;</span><span class="p">))</span> 
+</span></span><span class="line"><span class="cl"><span class="c1">--&gt; hello-o, wo-orld    2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">string.gsub</span><span class="p">(</span><span class="s2">&#34;hello Lua&#34;</span><span class="p">,</span> <span class="s2">&#34;(.)(.)&#34;</span><span class="p">,</span> <span class="s2">&#34;%2%1&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--&gt; ehll ouLa           4</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- 注意匹配数用括号丢弃</span>
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">trim</span> <span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="kr">return</span> <span class="p">(</span><span class="n">string.gsub</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="s2">&#34;^%s*(.-)%s*$&#34;</span><span class="p">,</span> <span class="s2">&#34;%1&#34;</span><span class="p">))</span> <span class="kr">end</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--string.gsub(s, pattern, func)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--第3个参数：自定义函数，对找到的匹配操作，并传出替换值</span>
+</span></span><span class="line"><span class="cl"><span class="n">s</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="n">string.gsub</span><span class="p">(</span><span class="s2">&#34;hello world&#34;</span><span class="p">,</span> <span class="s2">&#34;l+&#34;</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="kr">return</span> <span class="s2">&#34;xxx&#34;</span> <span class="kr">end</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--&gt; l+一个或多个l ,所以替换了 ll  和  l  返回为2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">--&gt; hexxxo worxxxd 2</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="3-stringgfind">3. <code>string.gfind</code></h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">--返回一个迭代器，迭代器每执行一次，返回下一个匹配串；</span>
+</span></span><span class="line"><span class="cl"><span class="n">iter</span> <span class="o">=</span> <span class="n">string.gfind</span><span class="p">(</span><span class="s2">&#34;a=b c=d&#34;</span><span class="p">,</span> <span class="s2">&#34;[^%s+]=[^%s+]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">iter</span><span class="p">())</span> <span class="c1">--&gt; a=b</span>
+</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">iter</span><span class="p">())</span> <span class="c1">--&gt; c=d</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--通常用于泛性for循环,下面的例子结果同上</span>
+</span></span><span class="line"><span class="cl"><span class="kr">for</span> <span class="n">s</span> <span class="kr">in</span> <span class="n">string.gfind</span><span class="p">(</span><span class="s2">&#34;a=b c=d&#34;</span><span class="p">,</span> <span class="s2">&#34;[^%s+]=[^%s+]&#34;</span><span class="p">)</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">    <span class="n">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="4-下面的表列出了-lua-支持的所有字符类">4. 下面的表列出了 <code>Lua</code> 支持的所有字符类</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl">    <span class="p">.</span>   <span class="c1">-- 任意字符</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">a</span>  <span class="c1">-- 字母</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">c</span>  <span class="c1">-- 控制字符</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">d</span>  <span class="c1">-- 数字</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">l</span>  <span class="c1">-- 小写字母</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">p</span>  <span class="c1">-- 标点字符</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">s</span>  <span class="c1">-- 空白符</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">u</span>  <span class="c1">-- 大写字母</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">w</span>  <span class="c1">-- 字母和数字</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">x</span>  <span class="c1">-- 十六进制数字</span>
+</span></span><span class="line"><span class="cl">    <span class="o">%</span><span class="n">z</span>  <span class="c1">-- 代表0的字符</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">-- 上面字符类的大写形式表示小写所代表的集合的补集。例如, &#39;%A&#39;非字母的字符: </span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="5-模式串中的特殊字符">5. 模式串中的特殊字符</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="p">(</span> <span class="p">)</span> <span class="p">.</span> <span class="o">%</span> <span class="o">+</span> <span class="o">-</span> <span class="o">*</span> <span class="err">?</span> <span class="p">[</span> <span class="o">^</span> <span class="err">$</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl">    <span class="s1">&#39;%&#39;</span>   <span class="c1">--用作特殊字符的转义字符  </span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;%.&#39;</span>  <span class="c1">--匹配点  </span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;%%&#39;</span>  <span class="c1">--匹配字符 &#39;%&#39;。转义字符 &#39;%&#39;不仅可以用来转义特殊字符，还可以用于所有的非字母的字符。当对一个字符有疑问的时候，为安全起见请使用转义字符转义他。  </span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--用&#39;[]&#39;创建字符集  </span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[%w_]&#39;</span>     <span class="c1">--匹配字母数字和下划线</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[01]&#39;</span>      <span class="c1">--匹配二进制数字</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[%[%]]&#39;</span>    <span class="c1">--匹配一对方括号</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--在&#39;[]&#39;中使用连字符&#39;-&#39;</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;%d&#39;</span>    <span class="c1">--表示 &#39;[0-9]&#39;</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;%x&#39;</span>    <span class="c1">--表示 &#39;[0-9a-fA-F]&#39;</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[0-7]&#39;</span> <span class="c1">--表示 &#39;[01234567]&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">--在&#39;[]&#39;开始处使用 &#39;^&#39; 表示其补集：</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[^0-7]&#39;</span>    <span class="c1">--匹配任何不是八进制数字的字符</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[^</span><span class="se">\n</span><span class="s1">]&#39;</span>     <span class="c1">--匹配任何非换行符户的字符</span>
+</span></span><span class="line"><span class="cl">　　<span class="s1">&#39;[^%s]&#39;</span> <span class="o">==</span> <span class="s1">&#39;%S&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><em><strong>6.模式修饰符</strong></em></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl">　　<span class="o">+</span>   <span class="c1">--匹配前一字符1次或多次</span>
+</span></span><span class="line"><span class="cl">　　<span class="o">*</span>   <span class="c1">--匹配前一字符0次或多次;最长匹配</span>
+</span></span><span class="line"><span class="cl">　　<span class="o">-</span>   <span class="c1">--匹配前一字符0次或多次;最短匹配</span>
+</span></span><span class="line"><span class="cl">　　<span class="err">?</span>   <span class="c1">--匹配前一字符0次或1次</span>
+</span></span><span class="line"><span class="cl">　　<span class="o">^</span>   <span class="c1">--匹配字符串开头</span>
+</span></span><span class="line"><span class="cl">　　<span class="err">$</span>   <span class="c1">--匹配字符串结尾</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+                <br/>
+                <hr>
+                <p>
+                    【作者】：<a href='/about' target="_blank">神梦无痕</a>
+                    <br>
+                    【出处】：<a href="https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/" target="_blank">https://SMWHff.com/</a>
+                </p>
+            </div>
             
-            <div class="terms-root">
-                
-                
-
-
-<div class="card-large">
-    <div class="card-large-img">
-
-        
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-2.jpg" alt='图片加载失败'>
-        
-    </div>
-    <div class="card-large-content">
-        <div class="up-title"><a href="https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/">Windows 安装 Appium 教程</a></div>
-        <div class="up-date">
-            <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-folder"></i>
-                
-                    收录于:
+                <div class="tags">
                     
-                        <a href='
-                                        /categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/lua
                                     '>
-                                技术教程
+                                <i class="fa fa-tag"></i> Lua
                             </a>
-                
-            </span>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/string
+                                    '>
+                                <i class="fa fa-tag"></i> string
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/%E6%AD%A3%E5%88%99
+                                    '>
+                                <i class="fa fa-tag"></i> 正则
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/%E6%95%99%E7%A8%8B
+                                    '>
+                                <i class="fa fa-tag"></i> 教程
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7
+                                    '>
+                                <i class="fa fa-tag"></i> 编程技巧
+                            </a>
+                        </div>
+                    </span>
+                    
+                </div>
+            
         </div>
-        <div class="down-summary">标题: Windows 安装 Appium 教程
-作者: 神梦无痕
-邮箱: smwh@vip.qq.com
-版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。
-1. 部署 JAVA JDK 环境 1. JDK下载
-华为镜像源：jdk-8u181-windows-x64.exe 华为公共库：jdk-8u181-windows-x64.exe 清华镜像源：OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi 2. 配置 JAVA 环境变量
-按 Win+R 快捷键，输入 sysdm.cpl 后按 Enter，打开【系统属性】界面 切换到【高级】选项卡，点击【环境变量】按钮 点击【系统变量】下的【新建】按钮，设置 JAVA_HOME 路径，注意设置成你自己安装的路径 1 C:\Program Files\Java\jdk1.8.0_181 点击【系统变量】下的【新建】按钮，设置 CLASSPATH 路径，注意最前面有个点 1 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar 点击【系统变量】列表里双击【PATH】变量，新建两条路径 1 2 %JAVA_HOME%\bin; %JAVA_HOME%\jre\bin; 2.</div>
-    </div>
-    <div class="card-readmore">
-        <a href="https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/">
-            <span><i class="fa fa-arrow-right"></i></span>
+        
+            
+                <div class="pre-next">
+                    
+    
+        
+        <a href="https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/" class="pre pre-last" style="text-align: center;">
+            <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
+            <div class="pre-title-root">
+                <span>Windows 安装 Appium 教程</span>
+            </div>
         </a>
-    </div>
-</div>
-
-
-
+        
+    
     
 
+                </div>
+            
+        
+    
+</div>
 
-    <div class="down-type">
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/appium
-                        '>
-                    <i class="fa fa-tag"></i> Appium
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/win10
-                        '>
-                    <i class="fa fa-tag"></i> Win10
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/windows
-                        '>
-                    <i class="fa fa-tag"></i> Windows
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E6%95%99%E7%A8%8B
-                        '>
-                    <i class="fa fa-tag"></i> 教程
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/java
-                        '>
-                    <i class="fa fa-tag"></i> Java
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/node.js
-                        '>
-                    <i class="fa fa-tag"></i> Node.js
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/android-sdk
-                        '>
-                    <i class="fa fa-tag"></i> Android SDK
-                </a>
-            </div>
-        </span>
-        
-    </div>
-
-<div class="dang"></div>
-            </div>
+    
+        <div class="content-last">
+            
+                <button class="aixin content-last-item efct-button">
+                    <i class="fa fa-heart"></i>
+                </button>
+            
+            
+                <button class="pinglun content-last-item efct-button">
+                    <i class="fa fa-comment"></i>
+                </button>
             
         </div>
     
-</div>
 
 
             </div>
@@ -418,6 +588,11 @@
                 
 <div class="zhuti-r-0">
     <div class="zhuti-r-1">
+        
+            <div class="button-r">
+                <button class="button-mulu efct-button" type="button"><span><i class="fa fa-bars"></i></span><span class="bars-text"> 目录</span></button>
+                <button class="button-comment efct-button" type="button"><span><i class="fa fa-comment"></i></span><span class="comment-text"> 评论</span></button>
+            </div>
         
         <div id="r1">
             
@@ -487,43 +662,16 @@
 
 
 
+    
+    
+
 
 <div class="other">
     <div class="other-up">
-        <div class="other-qita text-wbd">最新文章</div>
+        <div class="other-qita text-wbd">相关文章</div>
         <div class="xian"></div>
     </div>
     <div class="list">
-        
-            <a href="https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/">
-                
-<a href="https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                Lua编程：掌握字符串处理技巧
-            </div>
-            <div class="other-summary">标题: Lua编程：掌握字符串处理技巧
-作者: 神梦无痕
-邮箱: smwh@vip.qq.com
-版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。
-A、string 库中字符索引 所有的字符索引从前往后是 1, 2, 3...； 从后往前是 -1, -2, -3...。 B、string 库中所有函数直接操作字符串，而是返回一个结果 string.len(s)：返回字符串的长度
-string.lower(s)：变小写
-string.upper(s)：变大写
-string.rep(s,n)：将 s 拷贝 n 份,并连接起来,返回
-string.sub(s,i [,j])：取 s 中从 i 开始到 j 为止的自字符串.默认 j 为长度 -i 表示倒数
-1. string.find(s, pattern, pos) 第1个参数：源字符串 第2个参数：待搜索之模式串
-第3个参数：A hint, 从 pos 位置开始搜索</div>
-            <div class="other-date">2023-1-18</div>
-        </div>
-    </div>
-</a>
-            </a>
         
             <a href="https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/">
                 
@@ -620,17 +768,93 @@ string.sub(s,i [,j])：取 s 中从 i 开始到 j 为止的自字符串.默认 j
 </a>
             </a>
         
+            <a href="https://SMWHff.com/posts/docker/installing_jira_by_docker/">
+                
+<a href="https://SMWHff.com/posts/docker/installing_jira_by_docker/">
+    <div class="list-item">
+        <div class="icon-other-root">
+            
+                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
+            
+        </div>
+        <div class="list-right">
+            <div class="other-title">
+                通过 Docker 安装 Jira 平台教程
+            </div>
+            <div class="other-summary">通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境
+1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默认密码：123456
+1 2 3 docker run -d -p 3306:3306 \ --name=mysql_jira --privileged=true -u root \ -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7 2. 启动 MySQL 登录 MySQL 1 2 3 docker run -it --link mysql_jira:mysql --rm mysql \ sh -c &#39;exec mysql -h&#34;$MYSQL_PORT_3306_TCP_ADDR&#34; \ -P&#34;$MYSQL_PORT_3306_TCP_PORT&#34; -u root -p&#34;$MYSQL_ENV_MYSQL_ROOT_PASSWORD&#34;&#39; 创建数据库 1 create database jira default character set utf8 collate utf8_bin; 创建用户并授权 1 create user `jira`@`%` identified by &#39;jira&#39;; 1 grant all on *.</div>
+            <div class="other-date">2023-1-18</div>
+        </div>
+    </div>
+</a>
+            </a>
+        
     </div>
 </div>
         </div>
         <div id="r2">
-            
+            <div id="vcomments"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: "X6rUDOOaUD5H1LncXkFIk7Dt-gzGzoHsz",
+        appKey: "FdqAnKCXdXAphsYWFG6V4JXo",
+        avatar: "robohash",
+        placeholder: "输入你的评论",
+        requiredFields: ["nick","mail"],
+        visitor:  true ,
+        pageSize:  5 ,
+});
+</script>
+
         </div> 
     </div>
 </div>
 
             </div>
         </div>
+    </div>
+</div>
+
+    
+
+<div class="sponsor">
+    <div class="sponsor-self">
+        <div class="sponsor-title">赞赏</div>
+        <div class="sponsor-btn">
+            
+                
+                    
+                        <div class="sponsor-btn-1 border-r">微信</div>
+                    
+                
+                
+            
+                
+                    
+                        <div class="sponsor-btn-2 border-l">支付宝</div>
+                    
+                
+                
+            
+        </div>
+        
+        <div class="sponsor-img">
+            
+                
+                    <img class="sponsor-img-1" src="/images/sponsor/wx.jpg" alt="">
+                
+                
+            
+                
+                    <img class="sponsor-img-2" src="/images/sponsor/zfb.jpg" alt="" style="display: none;">
+                
+                
+            
+        </div>
+        <div class="cancel efct-button">取消</div>
     </div>
 </div>
 
