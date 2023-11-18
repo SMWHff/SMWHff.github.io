@@ -6,8 +6,16 @@
     <description>Recent content on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 13:27:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2023 13:30:21 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过 Docker 安装 Testlink 平台教程</title>
+      <link>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</link>
+      <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
+      <guid>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</guid>
+      <description>通过 Docker 安装 Testlink 平台教程 前提条件：需要先部署好 Docker 环境
+1. 创建容器网络 1 docker network create test_link 2. 安装 MariaDB 数据库（使用 testlink 网络） 1 2 3 4 5 6 7 docker run -d --name mariadb --net=test_link \ --restart=always --privileged=true \ -e MARIADB_ROOT_PASSWORD=mariadb \ -e MARIADB_USER=bn_testlink \ -e MARIADB_PASSWORD=bn_testlink \ -e MARIADB_DATABASE=bitnami_testlink \ bitnami/mariadb:10.</description>
+    </item>
     <item>
       <title>通过 Docker 安装 Nginx 服务教程</title>
       <link>https://SMWHff.com/posts/docker/installing_nginx_by_docker/</link>
@@ -24,8 +32,10 @@
       <pubDate>Wed, 18 Jan 2023 13:24:44 +0800</pubDate>
       <guid>https://SMWHff.com/posts/docker/installing_mysql_by_docker/</guid>
       <description>通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
-1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
-1 docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 1 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &amp;lt;回车键&amp;gt;，输入密码 123456 按 &amp;lt;回车键&amp;gt; 登录数据库
+1. 运行 MySQL 服务 默认端口：3306
+默认账号：root
+默认密码：123456
+1 docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 1 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 Enter，再输入密码 🔒123456 按 Enter 登录数据库
 1 mysql -u root -p 4.</description>
     </item>
     <item>
