@@ -3,19 +3,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | 入门</title>
+    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | MySQL</title>
     <meta name="description" content=" ">
-    <link rel="canonical" href="https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/" />
+    <link rel="canonical" href="https://SMWHff.com/tags/mysql/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="入门" />
+    <meta property="og:title" content="MySQL" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/" />
+<meta property="og:url" content="https://SMWHff.com/tags/mysql/" />
 
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="入门"/>
+<meta name="twitter:title" content="MySQL"/>
 <meta name="twitter:description" content=""/>
 
     
@@ -223,11 +223,11 @@
         
             
                 <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-19.jpg" alt="">
+                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-7.jpg" alt="">
                 </div>
             
         <div class="hero-content">
-            <h1 class="hero-title">标签: 入门</h1>
+            <h1 class="hero-title">标签: MySQL</h1>
         </div>
     </div>
 
@@ -270,11 +270,11 @@
     <div class="card-large-img">
 
         
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-19.jpg" alt='图片加载失败'>
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-7.jpg" alt='图片加载失败'>
         
     </div>
     <div class="card-large-content">
-        <div class="up-title"><a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">【Windows】Git 环境配置和上传 GitHub</a></div>
+        <div class="up-title"><a href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/">通过 Docker 安装 MySQL 服务教程</a></div>
         <div class="up-date">
             <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
             <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
@@ -290,17 +290,13 @@
                 
             </span>
         </div>
-        <div class="down-summary">Git 环境配置（Windows） 零基础、小白都能学会
-一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
-二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
-腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
-三、Git 全局配置 安装包安装完后，就可以在桌面右键
-点击 Git Bash Here 选项
-就可以开始输入命令了
-输入配置账号命令 1 git config --global user.name &#34;你的账号&#34; 输入配置邮箱命令 1 git config --global user.email &#34;你的邮箱地址&#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &#34;你的邮箱地址&#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</div>
+        <div class="down-summary">通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
+1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
+docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &lt;回车键&gt;，输入密码 123456 按 &lt;回车键&gt; 登录数据库
+mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; alter user admin identified by &#39;123456&#39;; 5.</div>
     </div>
     <div class="card-readmore">
-        <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
+        <a href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/">
             <span><i class="fa fa-arrow-right"></i></span>
         </a>
     </div>
@@ -319,9 +315,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/github
+                            /tags/docker
                         '>
-                    <i class="fa fa-tag"></i> GitHub
+                    <i class="fa fa-tag"></i> Docker
                 </a>
             </div>
         </span>
@@ -332,9 +328,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/git
+                            /tags/mysql
                         '>
-                    <i class="fa fa-tag"></i> Git
+                    <i class="fa fa-tag"></i> MySQL
                 </a>
             </div>
         </span>
@@ -345,9 +341,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/windows
+                            /tags/centos
                         '>
-                    <i class="fa fa-tag"></i> Windows
+                    <i class="fa fa-tag"></i> CentOS
                 </a>
             </div>
         </span>
@@ -358,22 +354,9 @@
             </div>
             <div class="type-text">
                 <a href='
-                            /tags/%E6%96%B0%E6%89%8B
+                            /tags/linux
                         '>
-                    <i class="fa fa-tag"></i> 新手
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E5%85%A5%E9%97%A8
-                        '>
-                    <i class="fa fa-tag"></i> 入门
+                    <i class="fa fa-tag"></i> Linux
                 </a>
             </div>
         </span>

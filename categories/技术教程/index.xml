@@ -6,8 +6,18 @@
     <description>Recent content in 技术教程 on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 13:21:05 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jan 2023 13:24:44 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>通过 Docker 安装 MySQL 服务教程</title>
+      <link>https://SMWHff.com/posts/docker/installing_mysql_by_docker/</link>
+      <pubDate>Wed, 18 Jan 2023 13:24:44 +0800</pubDate>
+      <guid>https://SMWHff.com/posts/docker/installing_mysql_by_docker/</guid>
+      <description>通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
+1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
+docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &amp;lt;回车键&amp;gt;，输入密码 123456 按 &amp;lt;回车键&amp;gt; 登录数据库
+mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; alter user admin identified by &amp;#39;123456&amp;#39;; 5.</description>
+    </item>
     <item>
       <title>通过 Docker 安装 Jira 平台教程</title>
       <link>https://SMWHff.com/posts/docker/installing_jira_by_docker/</link>

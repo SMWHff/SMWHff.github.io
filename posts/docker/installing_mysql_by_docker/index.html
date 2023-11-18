@@ -3,20 +3,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | 入门</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/" />
+    <title>SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客 | 通过 Docker 安装 MySQL 服务教程</title>
+    <meta name="description" content="通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
+1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
+docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &lt;回车键&gt;，输入密码 123456 按 &lt;回车键&gt; 登录数据库
+mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; alter user admin identified by &#39;123456&#39;; 5. ">
+    <link rel="canonical" href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <meta property="og:title" content="入门" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/" />
+    <meta property="og:title" content="通过 Docker 安装 MySQL 服务教程" />
+<meta property="og:description" content="通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
+1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
+docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &lt;回车键&gt;，输入密码 123456 按 &lt;回车键&gt; 登录数据库
+mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; alter user admin identified by &#39;123456&#39;; 5." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://SMWHff.com/posts/docker/installing_mysql_by_docker/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-01-18T13:24:44+08:00" />
+<meta property="article:modified_time" content="2023-11-18T17:00:11+08:00" />
+
 
 
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="入门"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="通过 Docker 安装 MySQL 服务教程"/>
+<meta name="twitter:description" content="通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
+1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
+docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &lt;回车键&gt;，输入密码 123456 按 &lt;回车键&gt; 登录数据库
+mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; alter user admin identified by &#39;123456&#39;; 5."/>
 
     
         
@@ -205,29 +217,41 @@
 
 
         <div id="content">
-    
 
 
 
 
-
-
-    
-        
-    
 
 
 
 
     <div class="hero">
         
-            
-                <div class="hero-img">
-                    <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-19.jpg" alt="">
-                </div>
-            
+            <div class="hero-img">
+                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-7.jpg" alt="">
+            </div>
+        
         <div class="hero-content">
-            <h1 class="hero-title">标签: 入门</h1>
+            <div class="hero-title">通过 Docker 安装 MySQL 服务教程</div>
+            <div class="hero-subtitle"></div>
+            <div class="hero-date">
+                    <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
+                    <span class="no-wrap"><i class="fa fa-folder"></i>
+                        收录于:
+                        
+                            <a href='
+                                /categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B
+                            '>
+                                技术教程
+                            </a>
+                    </span>    
+            </div>
+            <div class="timelong">
+                <span class="no-wrap"><i class="fa fa-pencil"></i> 文章字数: 86 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-clock-o"></i> 阅读时间: 1 分钟 &nbsp;</span>
+                <span class="no-wrap"><i class="fa fa-eye"></i> 阅读量: <span id="busuanzi_value_page_pv"></span></span>
+            </div>
         </div>
     </div>
 
@@ -246,7 +270,7 @@
     
 
 
-<div class="terms-body">
+<div class="content-root">
     <div class="long">
         <button class="tosides-1 text-wbd">
             <i class="fa fa-arrow-right"></i>
@@ -259,146 +283,133 @@
         </button>
     </div>
     
-        <div class="terms-row">
+        <div class="content">
+            <div class="content-self">
+                <h1 id="通过-docker-安装-mysql-服务教程">通过 Docker 安装 MySQL 服务教程</h1>
+<blockquote>
+<p><em>前提条件：需要先部署好 Docker 环境</em></p>
+</blockquote>
+<h2 id="1-运行-mysql-服务">1. 运行 MySQL 服务</h2>
+<blockquote>
+<p>默认端口：3306
+默认账号：root
+默认密码：123456</p>
+</blockquote>
+<pre tabindex="0"><code>docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26
+</code></pre><h2 id="2-进入容器内部终端">2. 进入容器内部终端</h2>
+<pre tabindex="0"><code>docker exec -it mysql bash
+</code></pre><h2 id="3-登录-mysql-数据库">3. 登录 MySQL 数据库</h2>
+<p>执行以下命令按 &lt;回车键&gt;，输入密码 <code>123456</code> 按 &lt;回车键&gt; 登录数据库</p>
+<pre tabindex="0"><code>mysql -u root -p
+</code></pre><h2 id="4-增加新用户修改新用户密码">4. 增加新用户，修改新用户密码</h2>
+<pre tabindex="0"><code>create user admin;
+</code></pre><pre tabindex="0"><code>alter user admin identified by &#39;123456&#39;;
+</code></pre><h2 id="5-创建数据库">5. 创建数据库</h2>
+<pre tabindex="0"><code>create database smwh;
+</code></pre><h2 id="6-显示数据库">6. 显示数据库</h2>
+<pre tabindex="0"><code>show databases;
+</code></pre><h2 id="7-删除数据库">7. 删除数据库</h2>
+<pre tabindex="0"><code>drop database smwh;
+</code></pre><h2 id="8-连接数据库">8. 连接数据库</h2>
+<pre tabindex="0"><code>use smwh;
+</code></pre><h2 id="9-显示-mysql-的版本">9. 显示 MySQL 的版本</h2>
+<pre tabindex="0"><code>select version();
+</code></pre><h2 id="10-显示当前时间">10. 显示当前时间</h2>
+<pre tabindex="0"><code>select now();
+</code></pre>
+            </div>
             
-            <div class="terms-root">
-                
-                
-
-
-<div class="card-large">
-    <div class="card-large-img">
-
-        
-                <img class="lazyload" src="/images/thumbnail.gif" data-src="/images/default-19.jpg" alt='图片加载失败'>
-        
-    </div>
-    <div class="card-large-content">
-        <div class="up-title"><a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">【Windows】Git 环境配置和上传 GitHub</a></div>
-        <div class="up-date">
-            <span class="no-wrap"><i class="fa fa-calendar"></i> 发布于: 2023-1-18 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-calendar-check-o"></i> 更新于: 2023-11-18 &nbsp;</span>
-            <span class="no-wrap"><i class="fa fa-folder"></i>
-                
-                    收录于:
+                <div class="tags">
                     
-                        <a href='
-                                        /categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/docker
                                     '>
-                                技术教程
+                                <i class="fa fa-tag"></i> Docker
                             </a>
-                
-            </span>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/mysql
+                                    '>
+                                <i class="fa fa-tag"></i> MySQL
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/centos
+                                    '>
+                                <i class="fa fa-tag"></i> CentOS
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/linux
+                                    '>
+                                <i class="fa fa-tag"></i> Linux
+                            </a>
+                        </div>
+                    </span>
+                    
+                    <span class="down-type-item">
+                        <div class="type-text">
+                            <a href='
+                                        /tags/%E6%95%99%E7%A8%8B
+                                    '>
+                                <i class="fa fa-tag"></i> 教程
+                            </a>
+                        </div>
+                    </span>
+                    
+                </div>
+            
         </div>
-        <div class="down-summary">Git 环境配置（Windows） 零基础、小白都能学会
-一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
-二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
-腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
-三、Git 全局配置 安装包安装完后，就可以在桌面右键
-点击 Git Bash Here 选项
-就可以开始输入命令了
-输入配置账号命令 1 git config --global user.name &#34;你的账号&#34; 输入配置邮箱命令 1 git config --global user.email &#34;你的邮箱地址&#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &#34;你的邮箱地址&#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</div>
-    </div>
-    <div class="card-readmore">
-        <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
-            <span><i class="fa fa-arrow-right"></i></span>
+        
+            
+                <div class="pre-next">
+                    
+    
+        
+        <a href="https://SMWHff.com/posts/docker/installing_jira_by_docker/" class="pre pre-last" style="text-align: center;">
+            <span class="pre-icon"><i class="fa fa-hand-o-left"></i></span>
+            <div class="pre-title-root">
+                <span>通过 Docker 安装 Jira 平台教程</span>
+            </div>
         </a>
-    </div>
-</div>
-
-
-
+        
+    
     
 
+                </div>
+            
+        
+    
+</div>
 
-    <div class="down-type">
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/github
-                        '>
-                    <i class="fa fa-tag"></i> GitHub
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/git
-                        '>
-                    <i class="fa fa-tag"></i> Git
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/windows
-                        '>
-                    <i class="fa fa-tag"></i> Windows
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E6%96%B0%E6%89%8B
-                        '>
-                    <i class="fa fa-tag"></i> 新手
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E5%85%A5%E9%97%A8
-                        '>
-                    <i class="fa fa-tag"></i> 入门
-                </a>
-            </div>
-        </span>
-        
-        <span class="down-type-item">
-            <div class="shuxian-root">
-                <div class="shuxian"></div>
-            </div>
-            <div class="type-text">
-                <a href='
-                            /tags/%E6%95%99%E7%A8%8B
-                        '>
-                    <i class="fa fa-tag"></i> 教程
-                </a>
-            </div>
-        </span>
-        
-    </div>
-
-<div class="dang"></div>
-            </div>
+    
+        <div class="content-last">
+            
+                <button class="aixin content-last-item efct-button">
+                    <i class="fa fa-heart"></i>
+                </button>
+            
+            
+                <button class="pinglun content-last-item efct-button">
+                    <i class="fa fa-comment"></i>
+                </button>
             
         </div>
     
-</div>
 
 
             </div>
@@ -406,6 +417,11 @@
                 
 <div class="zhuti-r-0">
     <div class="zhuti-r-1">
+        
+            <div class="button-r">
+                <button class="button-mulu efct-button" type="button"><span><i class="fa fa-bars"></i></span><span class="bars-text"> 目录</span></button>
+                <button class="button-comment efct-button" type="button"><span><i class="fa fa-comment"></i></span><span class="comment-text"> 评论</span></button>
+            </div>
         
         <div id="r1">
             
@@ -475,36 +491,16 @@
 
 
 
+    
+    
+
 
 <div class="other">
     <div class="other-up">
-        <div class="other-qita text-wbd">最新文章</div>
+        <div class="other-qita text-wbd">相关文章</div>
         <div class="xian"></div>
     </div>
     <div class="list">
-        
-            <a href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/">
-                
-<a href="https://SMWHff.com/posts/docker/installing_mysql_by_docker/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default-7.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                通过 Docker 安装 MySQL 服务教程
-            </div>
-            <div class="other-summary">通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境
-1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认密码：123456
-docker run -d --name mysql -p 3306:3306 --privileged=true -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0.26 2. 进入容器内部终端 docker exec -it mysql bash 3. 登录 MySQL 数据库 执行以下命令按 &lt;回车键&gt;，输入密码 123456 按 &lt;回车键&gt; 登录数据库
-mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; alter user admin identified by &#39;123456&#39;; 5.</div>
-            <div class="other-date">2023-1-18</div>
-        </div>
-    </div>
-</a>
-            </a>
         
             <a href="https://SMWHff.com/posts/docker/installing_jira_by_docker/">
                 
@@ -522,33 +518,6 @@ mysql -u root -p 4. 增加新用户，修改新用户密码 create user admin; a
             <div class="other-summary">通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境
 1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默认密码：123456
 1 2 3 docker run -d -p 3306:3306 \ --name=mysql_jira --privileged=true -u root \ -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7 2. 启动 MySQL 登录 MySQL 1 2 3 docker run -it --link mysql_jira:mysql --rm mysql \ sh -c &#39;exec mysql -h&#34;$MYSQL_PORT_3306_TCP_ADDR&#34; \ -P&#34;$MYSQL_PORT_3306_TCP_PORT&#34; -u root -p&#34;$MYSQL_ENV_MYSQL_ROOT_PASSWORD&#34;&#39; 创建数据库 create database jira default character set utf8 collate utf8_bin; 创建用户并授权 create user `jira`@`%` identified by &#39;jira&#39;; grant all on *.</div>
-            <div class="other-date">2023-1-18</div>
-        </div>
-    </div>
-</a>
-            </a>
-        
-            <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
-                
-<a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
-    <div class="list-item">
-        <div class="icon-other-root">
-            
-                <div class="icon-other" style="background-image: url( /images/default-19.jpg );"></div>
-            
-        </div>
-        <div class="list-right">
-            <div class="other-title">
-                【Windows】Git 环境配置和上传 GitHub
-            </div>
-            <div class="other-summary">Git 环境配置（Windows） 零基础、小白都能学会
-一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
-二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
-腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
-三、Git 全局配置 安装包安装完后，就可以在桌面右键
-点击 Git Bash Here 选项
-就可以开始输入命令了
-输入配置账号命令 1 git config --global user.name &#34;你的账号&#34; 输入配置邮箱命令 1 git config --global user.email &#34;你的邮箱地址&#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &#34;你的邮箱地址&#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</div>
             <div class="other-date">2023-1-18</div>
         </div>
     </div>
@@ -597,17 +566,98 @@ Github仓库：https://hub.docker.com/r/jenkins/jenkins/
 </a>
             </a>
         
+            <a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
+                
+<a href="https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/">
+    <div class="list-item">
+        <div class="icon-other-root">
+            
+                <div class="icon-other" style="background-image: url( /images/default-19.jpg );"></div>
+            
+        </div>
+        <div class="list-right">
+            <div class="other-title">
+                【Windows】Git 环境配置和上传 GitHub
+            </div>
+            <div class="other-summary">Git 环境配置（Windows） 零基础、小白都能学会
+一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
+二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
+腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
+三、Git 全局配置 安装包安装完后，就可以在桌面右键
+点击 Git Bash Here 选项
+就可以开始输入命令了
+输入配置账号命令 1 git config --global user.name &#34;你的账号&#34; 输入配置邮箱命令 1 git config --global user.email &#34;你的邮箱地址&#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &#34;你的邮箱地址&#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</div>
+            <div class="other-date">2023-1-18</div>
+        </div>
+    </div>
+</a>
+            </a>
+        
     </div>
 </div>
         </div>
         <div id="r2">
-            
+            <div id="vcomments"></div>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: "X6rUDOOaUD5H1LncXkFIk7Dt-gzGzoHsz",
+        appKey: "FdqAnKCXdXAphsYWFG6V4JXo",
+        avatar: "robohash",
+        placeholder: "输入你的评论",
+        requiredFields: ["nick","mail"],
+        visitor:  true ,
+        pageSize:  5 ,
+});
+</script>
+
         </div> 
     </div>
 </div>
 
             </div>
         </div>
+    </div>
+</div>
+
+    
+
+<div class="sponsor">
+    <div class="sponsor-self">
+        <div class="sponsor-title">赞赏</div>
+        <div class="sponsor-btn">
+            
+                
+                    
+                        <div class="sponsor-btn-1 border-r">微信</div>
+                    
+                
+                
+            
+                
+                    
+                        <div class="sponsor-btn-2 border-l">支付宝</div>
+                    
+                
+                
+            
+        </div>
+        
+        <div class="sponsor-img">
+            
+                
+                    <img class="sponsor-img-1" src="/images/sponsor/wx.jpg" alt="">
+                
+                
+            
+                
+                    <img class="sponsor-img-2" src="/images/sponsor/zfb.jpg" alt="" style="display: none;">
+                
+                
+            
+        </div>
+        <div class="cancel efct-button">取消</div>
     </div>
 </div>
 
