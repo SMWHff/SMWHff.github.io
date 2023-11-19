@@ -360,24 +360,31 @@ $(document).ready(function () {
             var code_1 = outer.find('code:first');
             var code_2 = outer.find('code:last');
             var span_1 = code_2.find('span:first');
-            var case_1 = code_2.html().slice(0, 5) == '<span';
+            var case_1 = (code_2.html().slice(0, 5) == '<span') &&
+                        (span_1.text().slice(0, 5) == 'close');
             var case_2 = code_2.html().slice(0, 5) == 'close';
             
             var closeCase = 
-                ((case_1 && span_1.text() == 'close') || case_2)
+                (case_1 || case_2)
                 ? true
                 : false;
             if (closeCase) {
                 if (case_1) {
                     span_1.remove();
-                    code_2.html(code_2.html().slice(1));
+                    var startNum = (function() {
+                        for (var i=0; i<50; i++) {
+                            if ((code_2.html()[i] != ' ') && (code_2.html()[i] != '\n')) return i;
+                        }
+                    })();
+                    
+                    code_2.html(code_2.html().slice(startNum));
                 } else if (case_2) {
                     code_2.html(code_2.html().slice(6));
                 }
                 code_1.find('span:last').remove();
             }
 
-            var theHtml = $(this).html();
+            var theHtml = outer.html();
             var theLang = (function() {
                 var a = '';
                 if (typeof code_2.attr('class') == 'string') {
@@ -386,7 +393,7 @@ $(document).ready(function () {
                 return a;
             })();
             
-            outer.after(
+            $(this).after(
                 '<div class="code-box">' +
                     '<div class="code-header">' + 
                         '<span class="for-slidetoggle">' +
@@ -409,7 +416,7 @@ $(document).ready(function () {
                  outer.next().find('.fa-angle-down').css("transform", "rotate(-90deg)");
             }
            
-            outer.remove();
+            $(this).remove();
         })
     })();
 
@@ -611,9 +618,9 @@ $(document).ready(function () {
         $(".button-comment").click();
     });
 
-    // if ($('.mermaid')) {
-    //     mermaid.initialize({ startOnLoad: true });
-    // }
+    if (enable_mermaid) {
+        mermaid.initialize({ startOnLoad: true });
+    }
 
     (function imgAddSd() {
        var imgs = $('.content-self img');

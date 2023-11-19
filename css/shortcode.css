@@ -55,6 +55,7 @@ figure img {
 .code-box .fa::before {
     color: rgb(130, 130, 130);
 }
+
 .for-copy {
     padding: 0 10px;
     cursor: pointer;
@@ -74,7 +75,7 @@ figure img {
     padding: 0 4px 4px 4px;
     border-radius: 13px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 3px 2px rgba(120, 120, 120, 0.1);
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
 }
 .note .fa {
     color: var(--white-m);
@@ -195,7 +196,7 @@ figure img {
     color: var(--warning);
     text-shadow: 1px 1px 3px var(--warning-shadow);
 }
-.warning-box, .warning-content > p > code {
+.warning-box, .warning-content  code {
     background-color: var(--warning) !important;
 }
 .warning-box li::marker {
@@ -211,6 +212,10 @@ figure img {
 }
 .primary-box li::marker {
     color: var(--primary);
+}
+/* position cant change here above*/
+.code-box code {
+    background-color: transparent !important;
 }
 .label {
     padding: 1px 0.4em;

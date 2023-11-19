@@ -142,7 +142,7 @@ $(document).ready(function () {
         }
     }
 
-    // mermaid
+    // 
     $('pre').each(function() {
         switch ($(this).children('code:first').attr('data-lang')) {
             case 'mermaid':
@@ -151,8 +151,14 @@ $(document).ready(function () {
                 break;
             case 'math':
                 $(this).before(`<div>${$(this).text()}</div>`);
-                MathJax.typesetPromise($(this).prev());
-                $(this).remove();
+                var enen = $(this);
+                var timer = setInterval(function() {
+                    if (MathJax.typesetPromise) {
+                        MathJax.typesetPromise(enen.prev());
+                        enen.remove();
+                        clearInterval(timer);
+                    }
+                }, 1000);
                 break;
         }
     })
