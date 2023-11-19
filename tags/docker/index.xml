@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</title>
+    <title>Docker on SMWHff&#39;s Blog | 梦痕编程</title>
     <link>https://SMWHff.com/tags/docker/</link>
-    <description>Recent content in Docker on SMWHff&#39;s Blog | 梦痕编程 —— 神梦博客</description>
+    <description>Recent content in Docker on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 13:30:21 +0800</lastBuildDate>
@@ -22,7 +22,8 @@
       <pubDate>Wed, 18 Jan 2023 13:27:19 +0800</pubDate>
       <guid>https://SMWHff.com/posts/docker/installing_nginx_by_docker/</guid>
       <description>通过 Docker 安装 Nginx 服务教程 前提条件：需要先部署好 Docker 环境
-1. 运行 nginx 服务 默认端口：80 默认目录：/opt/nginx/html
+1. 运行 nginx 服务 默认端口：80
+默认目录：/opt/nginx/html
 1 docker run -d --name nginx -p 80:80 -v /opt/nginx/html:usr/share/nginx/html nginx:1.17.9 2. 创建一个静态网页 在 /opt/nginx/html 目录下创建一个静态网页文件
 1 vim /opt/nginx/html/index.html 1 2 3 4 5 6 7 8 9 10 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Nginx 演示&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;我是一个静态网页&amp;lt;/h1&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 3.</description>
     </item>
@@ -44,7 +45,9 @@
       <pubDate>Wed, 18 Jan 2023 13:21:05 +0800</pubDate>
       <guid>https://SMWHff.com/posts/docker/installing_jira_by_docker/</guid>
       <description>通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境
-1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默认密码：123456
+1. 安装 MySQL 数据库 默认端口：3306
+默认账号：root
+默认密码：123456
 1 2 3 docker run -d -p 3306:3306 \ --name=mysql_jira --privileged=true -u root \ -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7 2. 启动 MySQL 登录 MySQL 1 2 3 docker run -it --link mysql_jira:mysql --rm mysql \ sh -c &amp;#39;exec mysql -h&amp;#34;$MYSQL_PORT_3306_TCP_ADDR&amp;#34; \ -P&amp;#34;$MYSQL_PORT_3306_TCP_PORT&amp;#34; -u root -p&amp;#34;$MYSQL_ENV_MYSQL_ROOT_PASSWORD&amp;#34;&amp;#39; 创建数据库 1 create database jira default character set utf8 collate utf8_bin; 创建用户并授权 1 create user `jira`@`%` identified by &amp;#39;jira&amp;#39;; 1 grant all on *.</description>
     </item>
     <item>
