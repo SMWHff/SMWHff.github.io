@@ -13,27 +13,14 @@
       <link>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
       <guid>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</guid>
-      <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程
-作者: 神梦无痕
-邮箱: smwh@vip.qq.com
-版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。
-1. 部署 JAVA JDK 环境 1. JDK下载
-华为镜像源：jdk-8u181-windows-x64.exe 华为公共库：jdk-8u181-windows-x64.exe 清华镜像源：OpenJDK8U-jdk_x64_windows_hotspot_8u312b07.msi 2. 配置 JAVA 环境变量
-按 Win+R 快捷键，输入 sysdm.cpl 后按 Enter，打开【系统属性】界面 切换到【高级】选项卡，点击【环境变量】按钮 点击【系统变量】下的【新建】按钮，设置 JAVA_HOME 路径，注意设置成你自己安装的路径 1 C:\Program Files\Java\jdk1.8.0_181 点击【系统变量】下的【新建】按钮，设置 CLASSPATH 路径，注意最前面有个点 1 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar 点击【系统变量】列表里双击【PATH】变量，新建两条路径 1 2 %JAVA_HOME%\bin; %JAVA_HOME%\jre\bin; 2.</description>
+      <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所有文章，都遵守“署名-非商业性使用-</description>
     </item>
     <item>
       <title>【Windows】Git 环境配置和上传 GitHub</title>
       <link>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
       <guid>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</guid>
-      <description>Git 环境配置（Windows） 零基础、小白都能学会
-一、注册 GitHub 账号 注册网址： Join GitHub · GitHub
-二、下载 Git 客户端安装包 官方下载：Git - Downloading Package
-腾讯下载：【Git下载】2023年最新官方正式版Git免费下载 - 腾讯软件中心官网
-三、Git 全局配置 安装包安装完后，就可以在桌面右键
-点击 Git Bash Here 选项
-就可以开始输入命令了
-输入配置账号命令 1 git config --global user.name &amp;#34;你的账号&amp;#34; 输入配置邮箱命令 1 git config --global user.email &amp;#34;你的邮箱地址&amp;#34; 输入生成 SSH 公钥命令，然后连续按三次回车就行 1 ssh-keygen -t rsa -C &amp;#34;你的邮箱地址&amp;#34; 输入查看公钥字符串命令，然后复制字符串到剪切板 1 cat ~/.</description>
+      <description>Git 环境配置（Windows） 零基础、小白都能学会 一、注册 GitHub 账号 注册网址： Join GitHub · GitHub 二、下载 Git 客户端安装</description>
     </item>
   </channel>
 </rss>

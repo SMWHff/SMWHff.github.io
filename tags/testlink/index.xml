@@ -13,8 +13,7 @@
       <link>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
       <guid>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</guid>
-      <description>通过 Docker 安装 Testlink 平台教程 前提条件：需要先部署好 Docker 环境
-1. 创建容器网络 1 docker network create test_link 2. 安装 MariaDB 数据库（使用 testlink 网络） 1 2 3 4 5 6 7 docker run -d --name mariadb --net=test_link \ --restart=always --privileged=true \ -e MARIADB_ROOT_PASSWORD=mariadb \ -e MARIADB_USER=bn_testlink \ -e MARIADB_PASSWORD=bn_testlink \ -e MARIADB_DATABASE=bitnami_testlink \ bitnami/mariadb:10.</description>
+      <description>通过 Docker 安装 Testlink 平台教程 前提条件：需要先部署好 Docker 环境 1. 创建容器网络 1 docker network create test_link 2. 安装 MariaDB 数据库（使用 testlink 网络）</description>
     </item>
   </channel>
 </rss>
