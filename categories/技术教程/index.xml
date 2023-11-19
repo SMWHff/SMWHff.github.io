@@ -13,7 +13,7 @@
       <link>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
       <guid>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</guid>
-      <description>标题: Lua编程：掌握字符串处理技巧
+      <description>Lua编程：掌握字符串处理技巧 标题: Lua编程：掌握字符串处理技巧
 作者: 神梦无痕
 邮箱: smwh@vip.qq.com
 版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。
@@ -30,7 +30,7 @@ string.sub(s,i [,j])：取 s 中从 i 开始到 j 为止的自字符串.默认 j
       <link>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
       <guid>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</guid>
-      <description>标题: Windows 安装 Appium 教程
+      <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程
 作者: 神梦无痕
 邮箱: smwh@vip.qq.com
 版权: 本人所有文章，都遵守“署名-非商业性使用-相同方式共享 2.5 中国大陆”协议条款。
@@ -99,7 +99,7 @@ string.sub(s,i [,j])：取 s 中从 i 开始到 j 为止的自字符串.默认 j
       <link>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
       <guid>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</guid>
-      <description>1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.json 1 2 3 { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://s2nni631.</description>
+      <description>CentOS 部署 Docker 环境教程 1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker 5. 开机自启 Docker 服务 1 systemctl enable docker 6. 添加 Docker 源 1 vim /etc/docker/daemon.</description>
     </item>
     <item>
       <title>通过 Docker 安装 Jenkins 平台教程</title>
