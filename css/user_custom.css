@@ -24,3 +24,40 @@ kbd {
 .fa-weixin:hover ~ .hover-image {
     display: block;
 }
+
+/* .card-large-content {
+    width: 100%;
+    min-height: 200px;
+} */
+
+.hero-content {
+    width: 96%;
+    height: 50%;
+    top: 50%; /* 将 top 设置为 50% */
+    left: 50%; /* 将 left 设置为 50% */
+    transform: translate(-50%, -50%); /* 使用 transform 进行偏移 */
+}
+
+/* 给封面图片加滤镜 */
+.card-large-content {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    /* border: 4px solid #fff;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    border-right: 4px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.hero-content {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}

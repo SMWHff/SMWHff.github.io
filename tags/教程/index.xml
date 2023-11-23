@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教程 on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</link>
+    <link>http://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 教程 on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
-    <atom:link href="https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://SMWHff.com/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lua编程：掌握字符串处理技巧</title>
-      <link>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</link>
+      <link>http://SMWHff.com/posts/Lua/Lua_String_Manipulation_Techniques/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</guid>
+      <guid>http://SMWHff.com/posts/Lua/Lua_String_Manipulation_Techniques/</guid>
       <description>Lua编程：掌握字符串处理技巧 标题: Lua编程：掌握字符串处理技巧 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所</description>
     </item>
     <item>
       <title>Windows 安装 Appium 教程</title>
-      <link>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</link>
+      <link>http://SMWHff.com/posts/Appium/Windows_Appium_Installation_Tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</guid>
+      <guid>http://SMWHff.com/posts/Appium/Windows_Appium_Installation_Tutorial/</guid>
       <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所有文章，都遵守“署名-非商业性使用-</description>
     </item>
     <item>
       <title>通过 Docker 安装 Testlink 平台教程</title>
-      <link>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</link>
+      <link>http://SMWHff.com/posts/Docker/Installing_Testlink_by_Docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</guid>
+      <guid>http://SMWHff.com/posts/Docker/Installing_Testlink_by_Docker/</guid>
       <description>通过 Docker 安装 Testlink 平台教程 前提条件：需要先部署好 Docker 环境 1. 创建容器网络 1 docker network create test_link 2. 安装 MariaDB 数据库（使用 testlink 网络）</description>
     </item>
     <item>
       <title>通过 Docker 安装 Nginx 服务教程</title>
-      <link>https://SMWHff.com/posts/docker/installing_nginx_by_docker/</link>
+      <link>http://SMWHff.com/posts/Docker/Installing_Nginx_by_Docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:27:19 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/installing_nginx_by_docker/</guid>
+      <guid>http://SMWHff.com/posts/Docker/Installing_Nginx_by_Docker/</guid>
       <description>通过 Docker 安装 Nginx 服务教程 前提条件：需要先部署好 Docker 环境 1. 运行 nginx 服务 默认端口：80 默认目录：/opt/ngi</description>
     </item>
     <item>
       <title>通过 Docker 安装 MySQL 服务教程</title>
-      <link>https://SMWHff.com/posts/docker/installing_mysql_by_docker/</link>
+      <link>http://SMWHff.com/posts/Docker/Installing_MySQL_by_Docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:24:44 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/installing_mysql_by_docker/</guid>
+      <guid>http://SMWHff.com/posts/Docker/Installing_MySQL_by_Docker/</guid>
       <description>通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境 1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认</description>
     </item>
     <item>
       <title>通过 Docker 安装 Jira 平台教程</title>
-      <link>https://SMWHff.com/posts/docker/installing_jira_by_docker/</link>
+      <link>http://SMWHff.com/posts/Docker/Installing_Jira_by_Docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:21:05 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/installing_jira_by_docker/</guid>
+      <guid>http://SMWHff.com/posts/Docker/Installing_Jira_by_Docker/</guid>
       <description>通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境 1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默</description>
     </item>
     <item>
       <title>【Windows】Git 环境配置和上传 GitHub</title>
-      <link>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</link>
+      <link>http://SMWHff.com/posts/GitHub/Windows_Git_Setup_and_GitHub_Upload/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</guid>
+      <guid>http://SMWHff.com/posts/GitHub/Windows_Git_Setup_and_GitHub_Upload/</guid>
       <description>Git 环境配置（Windows） 零基础、小白都能学会 一、注册 GitHub 账号 注册网址： Join GitHub · GitHub 二、下载 Git 客户端安装</description>
     </item>
     <item>
       <title>CentOS 部署 Docker 环境教程</title>
-      <link>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</link>
+      <link>http://SMWHff.com/posts/Docker/deploying_docker_on_centos/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/deploying_docker_on_centos/</guid>
-      <description>CentOS 部署 Docker 环境教程 1. 安装依赖： 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服务 1 systemctl start docker</description>
+      <guid>http://SMWHff.com/posts/Docker/deploying_docker_on_centos/</guid>
+      <description>CentOS 部署 Docker 环境教程 1. 安装依赖： 1 sudo yum update -y 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服</description>
     </item>
     <item>
       <title>通过 Docker 安装 Jenkins 平台教程</title>
-      <link>https://SMWHff.com/posts/docker/installing_jenkins_by_docker/</link>
+      <link>http://SMWHff.com/posts/Docker/Installing_Jenkins_by_Docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/docker/installing_jenkins_by_docker/</guid>
+      <guid>http://SMWHff.com/posts/Docker/Installing_Jenkins_by_Docker/</guid>
       <description>通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境 Github仓库：https://hub</description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>https://SMWHff.com/series/</link>
+    <link>http://SMWHff.com/series/</link>
     <description>Recent content in Series on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 14:30:21 +0800</lastBuildDate>
-    <atom:link href="https://SMWHff.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://SMWHff.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Appium教程</title>
-      <link>https://SMWHff.com/series/appium%E6%95%99%E7%A8%8B/</link>
+      <link>http://SMWHff.com/series/Appium%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/series/appium%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://SMWHff.com/series/Appium%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker教程</title>
-      <link>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</link>
+      <link>http://SMWHff.com/series/Docker%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/series/docker%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://SMWHff.com/series/Docker%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Git教程</title>
-      <link>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</link>
+      <link>http://SMWHff.com/series/Git%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://SMWHff.com/series/Git%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>神梦颂</title>
-      <link>https://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/</link>
+      <link>http://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/</link>
       <pubDate>Sat, 24 Dec 2022 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/</guid>
+      <guid>http://SMWHff.com/series/%E7%A5%9E%E6%A2%A6%E9%A2%82/</guid>
       <description></description>
     </item>
   </channel>

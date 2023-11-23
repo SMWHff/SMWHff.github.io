@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git教程 on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/</link>
+    <link>http://SMWHff.com/series/Git%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in Git教程 on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 13:15:50 +0800</lastBuildDate>
-    <atom:link href="https://SMWHff.com/series/git%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://SMWHff.com/series/Git%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【Windows】Git 环境配置和上传 GitHub</title>
-      <link>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</link>
+      <link>http://SMWHff.com/posts/GitHub/Windows_Git_Setup_and_GitHub_Upload/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/github/windows_git_setup_and_github_upload/</guid>
+      <guid>http://SMWHff.com/posts/GitHub/Windows_Git_Setup_and_GitHub_Upload/</guid>
       <description>Git 环境配置（Windows） 零基础、小白都能学会 一、注册 GitHub 账号 注册网址： Join GitHub · GitHub 二、下载 Git 客户端安装</description>
     </item>
   </channel>
