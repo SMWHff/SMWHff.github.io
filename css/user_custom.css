@@ -30,7 +30,7 @@ kbd {
     min-height: 200px;
 } */
 
-.hero-content {
+.hero-img + .hero-content {
     width: 96%;
     height: 50%;
     top: 50%; /* 将 top 设置为 50% */
@@ -52,7 +52,7 @@ kbd {
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
-.hero-content {
+.hero-img + .hero-content {
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(15px);
     display: flex;
