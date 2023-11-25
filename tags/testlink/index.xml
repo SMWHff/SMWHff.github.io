@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testlink on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>/tags/testlink/</link>
+    <link>https://SMWHff.com/tags/testlink/</link>
     <description>Recent content in Testlink on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 13:30:21 +0800</lastBuildDate>
-    <atom:link href="/tags/testlink/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SMWHff.com/tags/testlink/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过 Docker 安装 Testlink 平台教程</title>
-      <link>/posts/docker/installing_testlink_by_docker/</link>
+      <link>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>/posts/docker/installing_testlink_by_docker/</guid>
+      <guid>https://SMWHff.com/posts/docker/installing_testlink_by_docker/</guid>
       <description>通过 Docker 安装 Testlink 平台教程 前提条件：需要先部署好 Docker 环境 1. 创建容器网络 1 docker network create test_link 2. 安装 MariaDB 数据库（使用 testlink 网络）</description>
     </item>
   </channel>

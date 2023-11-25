@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jira on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>/tags/jira/</link>
+    <link>https://SMWHff.com/tags/jira/</link>
     <description>Recent content in Jira on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 13:21:05 +0800</lastBuildDate>
-    <atom:link href="/tags/jira/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SMWHff.com/tags/jira/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过 Docker 安装 Jira 平台教程</title>
-      <link>/posts/docker/installing_jira_by_docker/</link>
+      <link>https://SMWHff.com/posts/docker/installing_jira_by_docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:21:05 +0800</pubDate>
-      <guid>/posts/docker/installing_jira_by_docker/</guid>
+      <guid>https://SMWHff.com/posts/docker/installing_jira_by_docker/</guid>
       <description>通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境 1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默</description>
     </item>
   </channel>

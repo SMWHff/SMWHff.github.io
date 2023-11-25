@@ -2,185 +2,185 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>/tags/</link>
+    <link>https://SMWHff.com/tags/</link>
     <description>Recent content in Tags on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://SMWHff.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lua</title>
-      <link>/tags/lua/</link>
+      <link>https://SMWHff.com/tags/lua/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>/tags/lua/</guid>
+      <guid>https://SMWHff.com/tags/lua/</guid>
       <description></description>
     </item>
     <item>
       <title>string</title>
-      <link>/tags/string/</link>
+      <link>https://SMWHff.com/tags/string/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>/tags/string/</guid>
+      <guid>https://SMWHff.com/tags/string/</guid>
       <description></description>
     </item>
     <item>
       <title>编程技巧</title>
-      <link>/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/</link>
+      <link>https://SMWHff.com/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://SMWHff.com/tags/%E7%BC%96%E7%A8%8B%E6%8A%80%E5%B7%A7/</guid>
       <description></description>
     </item>
     <item>
       <title>教程</title>
-      <link>/tags/%E6%95%99%E7%A8%8B/</link>
+      <link>https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>/tags/%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://SMWHff.com/tags/%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>正则</title>
-      <link>/tags/%E6%AD%A3%E5%88%99/</link>
+      <link>https://SMWHff.com/tags/%E6%AD%A3%E5%88%99/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>/tags/%E6%AD%A3%E5%88%99/</guid>
+      <guid>https://SMWHff.com/tags/%E6%AD%A3%E5%88%99/</guid>
       <description></description>
     </item>
     <item>
       <title>Android SDK</title>
-      <link>/tags/android-sdk/</link>
+      <link>https://SMWHff.com/tags/android-sdk/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>/tags/android-sdk/</guid>
+      <guid>https://SMWHff.com/tags/android-sdk/</guid>
       <description></description>
     </item>
     <item>
       <title>Appium</title>
-      <link>/tags/appium/</link>
+      <link>https://SMWHff.com/tags/appium/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>/tags/appium/</guid>
+      <guid>https://SMWHff.com/tags/appium/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>/tags/java/</link>
+      <link>https://SMWHff.com/tags/java/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>/tags/java/</guid>
+      <guid>https://SMWHff.com/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Node.js</title>
-      <link>/tags/node.js/</link>
+      <link>https://SMWHff.com/tags/node.js/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>/tags/node.js/</guid>
+      <guid>https://SMWHff.com/tags/node.js/</guid>
       <description></description>
     </item>
     <item>
       <title>Win10</title>
-      <link>/tags/win10/</link>
+      <link>https://SMWHff.com/tags/win10/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>/tags/win10/</guid>
+      <guid>https://SMWHff.com/tags/win10/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>/tags/windows/</link>
+      <link>https://SMWHff.com/tags/windows/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>/tags/windows/</guid>
+      <guid>https://SMWHff.com/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>CentOS</title>
-      <link>/tags/centos/</link>
+      <link>https://SMWHff.com/tags/centos/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>/tags/centos/</guid>
+      <guid>https://SMWHff.com/tags/centos/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>/tags/docker/</link>
+      <link>https://SMWHff.com/tags/docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>/tags/docker/</guid>
+      <guid>https://SMWHff.com/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>https://SMWHff.com/tags/linux/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>/tags/linux/</guid>
+      <guid>https://SMWHff.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Testlink</title>
-      <link>/tags/testlink/</link>
+      <link>https://SMWHff.com/tags/testlink/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>/tags/testlink/</guid>
+      <guid>https://SMWHff.com/tags/testlink/</guid>
       <description></description>
     </item>
     <item>
       <title>Nginx</title>
-      <link>/tags/nginx/</link>
+      <link>https://SMWHff.com/tags/nginx/</link>
       <pubDate>Wed, 18 Jan 2023 13:27:19 +0800</pubDate>
-      <guid>/tags/nginx/</guid>
+      <guid>https://SMWHff.com/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL</title>
-      <link>/tags/mysql/</link>
+      <link>https://SMWHff.com/tags/mysql/</link>
       <pubDate>Wed, 18 Jan 2023 13:24:44 +0800</pubDate>
-      <guid>/tags/mysql/</guid>
+      <guid>https://SMWHff.com/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Jira</title>
-      <link>/tags/jira/</link>
+      <link>https://SMWHff.com/tags/jira/</link>
       <pubDate>Wed, 18 Jan 2023 13:21:05 +0800</pubDate>
-      <guid>/tags/jira/</guid>
+      <guid>https://SMWHff.com/tags/jira/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>https://SMWHff.com/tags/git/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>/tags/git/</guid>
+      <guid>https://SMWHff.com/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>/tags/github/</link>
+      <link>https://SMWHff.com/tags/github/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>/tags/github/</guid>
+      <guid>https://SMWHff.com/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Jenkins</title>
-      <link>/tags/jenkins/</link>
+      <link>https://SMWHff.com/tags/jenkins/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>/tags/jenkins/</guid>
+      <guid>https://SMWHff.com/tags/jenkins/</guid>
       <description></description>
     </item>
     <item>
       <title>入门</title>
-      <link>/tags/%E5%85%A5%E9%97%A8/</link>
+      <link>https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>/tags/%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://SMWHff.com/tags/%E5%85%A5%E9%97%A8/</guid>
       <description></description>
     </item>
     <item>
       <title>新手</title>
-      <link>/tags/%E6%96%B0%E6%89%8B/</link>
+      <link>https://SMWHff.com/tags/%E6%96%B0%E6%89%8B/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>/tags/%E6%96%B0%E6%89%8B/</guid>
+      <guid>https://SMWHff.com/tags/%E6%96%B0%E6%89%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>神梦</title>
-      <link>/tags/%E7%A5%9E%E6%A2%A6/</link>
+      <link>https://SMWHff.com/tags/%E7%A5%9E%E6%A2%A6/</link>
       <pubDate>Sat, 24 Dec 2022 13:15:50 +0800</pubDate>
-      <guid>/tags/%E7%A5%9E%E6%A2%A6/</guid>
+      <guid>https://SMWHff.com/tags/%E7%A5%9E%E6%A2%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>诗</title>
-      <link>/tags/%E8%AF%97/</link>
+      <link>https://SMWHff.com/tags/%E8%AF%97/</link>
       <pubDate>Sat, 24 Dec 2022 13:15:50 +0800</pubDate>
-      <guid>/tags/%E8%AF%97/</guid>
+      <guid>https://SMWHff.com/tags/%E8%AF%97/</guid>
       <description></description>
     </item>
   </channel>
