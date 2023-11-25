@@ -2,10 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://smwhff.com/posts/anjian/smweb/smweb_dll/</loc>
-    <lastmod>2023-11-26T02:54:02+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/categories/anjian/</loc>
+    <loc>https://smwhff.com/posts/smweb-dll/</loc>
     <lastmod>2023-11-26T02:54:02+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/categories/</loc>
@@ -38,6 +35,9 @@
     <loc>https://smwhff.com/tags/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</loc>
     <lastmod>2023-11-26T02:54:02+08:00</lastmod>
   </url><url>
+    <loc>https://smwhff.com/categories/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</loc>
+    <lastmod>2023-11-26T02:54:02+08:00</lastmod>
+  </url><url>
     <loc>https://smwhff.com/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2023-11-26T02:54:02+08:00</lastmod>
   </url><url>
@@ -65,7 +65,7 @@
     <loc>https://smwhff.com/categories/lua/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/lua/lua_string_manipulation_techniques/</loc>
+    <loc>https://smwhff.com/posts/lua-string-manipulation-techniques/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/regexp/</loc>
@@ -110,7 +110,7 @@
     <loc>https://smwhff.com/tags/windows/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/appium/windows_appium_installation_tutorial/</loc>
+    <loc>https://smwhff.com/posts/windows-appium-installation-tutorial/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/centos/</loc>
@@ -131,31 +131,31 @@
     <loc>https://smwhff.com/tags/testlink/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/docker/installing_testlink_by_docker/</loc>
+    <loc>https://smwhff.com/posts/installing-testlink-by-docker/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/nginx/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/docker/installing_nginx_by_docker/</loc>
+    <loc>https://smwhff.com/posts/installing-nginx-by-docker/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/mysql/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/docker/installing_mysql_by_docker/</loc>
+    <loc>https://smwhff.com/posts/installing-mysql-by-docker/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/jira/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/docker/installing_jira_by_docker/</loc>
+    <loc>https://smwhff.com/posts/installing-jira-by-docker/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/github/windows_git_setup_and_github_upload/</loc>
+    <loc>https://smwhff.com/posts/windows-git-setup-and-github-upload/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/docker/deploying_docker_on_centos/</loc>
+    <loc>https://smwhff.com/posts/deploying-docker-on-centos/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/git/</loc>
@@ -176,7 +176,7 @@
     <loc>https://smwhff.com/tags/%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/docker/installing_jenkins_by_docker/</loc>
+    <loc>https://smwhff.com/posts/installing-jenkins-by-docker/</loc>
     <lastmod>2023-11-25T17:54:51+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E6%96%B0%E6%89%8B/</loc>
@@ -185,7 +185,7 @@
     <loc>https://smwhff.com/about/</loc>
     <lastmod>2023-11-24T01:21:57+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/links/</loc>
+    <loc>https://smwhff.com/links/</loc>
     <lastmod>2023-11-26T02:54:02+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E7%A5%9E%E6%A2%A6/</loc>

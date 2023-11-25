@@ -10,9 +10,9 @@
     <atom:link href="https://smwhff.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>通过 Docker 安装 MySQL 服务教程</title>
-      <link>https://smwhff.com/posts/docker/installing_mysql_by_docker/</link>
+      <link>https://smwhff.com/posts/installing-mysql-by-docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:24:44 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/installing_mysql_by_docker/</guid>
+      <guid>https://smwhff.com/posts/installing-mysql-by-docker/</guid>
       <description>通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境 1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认</description>
     </item>
   </channel>

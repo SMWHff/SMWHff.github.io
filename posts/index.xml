@@ -10,79 +10,79 @@
     <atom:link href="https://smwhff.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【插件】神梦填表插件 SmWeb.dll</title>
-      <link>https://smwhff.com/posts/anjian/smweb/smweb_dll/</link>
+      <link>https://smwhff.com/posts/smweb-dll/</link>
       <pubDate>Sun, 26 Nov 2023 02:00:23 +0800</pubDate>
-      <guid>https://smwhff.com/posts/anjian/smweb/smweb_dll/</guid>
+      <guid>https://smwhff.com/posts/smweb-dll/</guid>
       <description>神梦填表插件COM版出来了！ 支持 IE、谷歌浏览器 支持跨域夸框架穿透填表 【元素智能定位】 【上传文件】 【</description>
     </item>
     <item>
       <title>Lua编程：掌握字符串处理技巧</title>
-      <link>https://smwhff.com/posts/lua/lua_string_manipulation_techniques/</link>
+      <link>https://smwhff.com/posts/lua-string-manipulation-techniques/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>https://smwhff.com/posts/lua/lua_string_manipulation_techniques/</guid>
+      <guid>https://smwhff.com/posts/lua-string-manipulation-techniques/</guid>
       <description>Lua编程：掌握字符串处理技巧 标题: Lua编程：掌握字符串处理技巧 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所</description>
     </item>
     <item>
       <title>Windows 安装 Appium 教程</title>
-      <link>https://smwhff.com/posts/appium/windows_appium_installation_tutorial/</link>
+      <link>https://smwhff.com/posts/windows-appium-installation-tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>https://smwhff.com/posts/appium/windows_appium_installation_tutorial/</guid>
+      <guid>https://smwhff.com/posts/windows-appium-installation-tutorial/</guid>
       <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所有文章，都遵守“署名-非商业性使用-</description>
     </item>
     <item>
       <title>通过 Docker 安装 Testlink 平台教程</title>
-      <link>https://smwhff.com/posts/docker/installing_testlink_by_docker/</link>
+      <link>https://smwhff.com/posts/installing-testlink-by-docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/installing_testlink_by_docker/</guid>
+      <guid>https://smwhff.com/posts/installing-testlink-by-docker/</guid>
       <description>通过 Docker 安装 Testlink 平台教程 前提条件：需要先部署好 Docker 环境 1. 创建容器网络 1 docker network create test_link 2. 安装 MariaDB 数据库（使用 testlink 网络）</description>
     </item>
     <item>
       <title>通过 Docker 安装 Nginx 服务教程</title>
-      <link>https://smwhff.com/posts/docker/installing_nginx_by_docker/</link>
+      <link>https://smwhff.com/posts/installing-nginx-by-docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:27:19 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/installing_nginx_by_docker/</guid>
+      <guid>https://smwhff.com/posts/installing-nginx-by-docker/</guid>
       <description>通过 Docker 安装 Nginx 服务教程 前提条件：需要先部署好 Docker 环境 1. 运行 nginx 服务 默认端口：80 默认目录：/opt/ngi</description>
     </item>
     <item>
       <title>通过 Docker 安装 MySQL 服务教程</title>
-      <link>https://smwhff.com/posts/docker/installing_mysql_by_docker/</link>
+      <link>https://smwhff.com/posts/installing-mysql-by-docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:24:44 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/installing_mysql_by_docker/</guid>
+      <guid>https://smwhff.com/posts/installing-mysql-by-docker/</guid>
       <description>通过 Docker 安装 MySQL 服务教程 前提条件：需要先部署好 Docker 环境 1. 运行 MySQL 服务 默认端口：3306 默认账号：root 默认</description>
     </item>
     <item>
       <title>通过 Docker 安装 Jira 平台教程</title>
-      <link>https://smwhff.com/posts/docker/installing_jira_by_docker/</link>
+      <link>https://smwhff.com/posts/installing-jira-by-docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:21:05 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/installing_jira_by_docker/</guid>
+      <guid>https://smwhff.com/posts/installing-jira-by-docker/</guid>
       <description>通过 Docker 安装 Jira 平台教程 前提条件：需要先部署好 Docker 环境 1. 安装 MySQL 数据库 默认端口：3306 默认账号：root 默</description>
     </item>
     <item>
       <title>【Windows】Git 环境配置和上传 GitHub</title>
-      <link>https://smwhff.com/posts/github/windows_git_setup_and_github_upload/</link>
+      <link>https://smwhff.com/posts/windows-git-setup-and-github-upload/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://smwhff.com/posts/github/windows_git_setup_and_github_upload/</guid>
+      <guid>https://smwhff.com/posts/windows-git-setup-and-github-upload/</guid>
       <description>Git 环境配置（Windows） 零基础、小白都能学会 一、注册 GitHub 账号 注册网址： Join GitHub · GitHub 二、下载 Git 客户端安装</description>
     </item>
     <item>
       <title>CentOS 部署 Docker 环境教程</title>
-      <link>https://smwhff.com/posts/docker/deploying_docker_on_centos/</link>
+      <link>https://smwhff.com/posts/deploying-docker-on-centos/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/deploying_docker_on_centos/</guid>
+      <guid>https://smwhff.com/posts/deploying-docker-on-centos/</guid>
       <description>CentOS 部署 Docker 环境教程 1. 安装依赖： 1 sudo yum update -y 1 yum -y install yum-utils device-mapper-persistent-data lvm2 2. 添加 yum 源： 1 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 3. 安装 Docker 1 yum -y install docker-ce 4. 启动 Docker 服</description>
     </item>
     <item>
       <title>通过 Docker 安装 Jenkins 平台教程</title>
-      <link>https://smwhff.com/posts/docker/installing_jenkins_by_docker/</link>
+      <link>https://smwhff.com/posts/installing-jenkins-by-docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://smwhff.com/posts/docker/installing_jenkins_by_docker/</guid>
+      <guid>https://smwhff.com/posts/installing-jenkins-by-docker/</guid>
       <description>通过 Docker 安装 Jenkins 平台教程（挂载目录） 前提条件：需要先部署好 Docker 环境 Github仓库：https://hub</description>
     </item>
     <item>
       <title>友情链接</title>
-      <link>https://smwhff.com/posts/links/</link>
+      <link>https://smwhff.com/links/</link>
       <pubDate>Sat, 24 Dec 2022 18:22:05 +0800</pubDate>
-      <guid>https://smwhff.com/posts/links/</guid>
+      <guid>https://smwhff.com/links/</guid>
       <description>友情链接 梦痕编程 | bearblog 你好，我叫神梦无痕。是一名程序员。 友链格式 1 2 3 4 name: 梦痕编程 url: https://smwhff.com/ logo: https://smwhff.com/images/logo.png word: 一梦醒来以</description>
     </item>
     <item>
