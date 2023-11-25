@@ -9,10 +9,31 @@
     <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>技术教程</title>
-      <link>https://SMWHff.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
+      <title>Lua</title>
+      <link>https://SMWHff.com/categories/lua/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://SMWHff.com/categories/lua/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Appium</title>
+      <link>https://SMWHff.com/categories/appium/</link>
+      <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
+      <guid>https://SMWHff.com/categories/appium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://SMWHff.com/categories/docker/</link>
+      <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
+      <guid>https://SMWHff.com/categories/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>https://SMWHff.com/categories/github/</link>
+      <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
+      <guid>https://SMWHff.com/categories/github/</guid>
       <description></description>
     </item>
     <item>

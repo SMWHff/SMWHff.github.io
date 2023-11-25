@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lua on SMWHff&#39;s Blog | 梦痕编程</title>
+    <link>https://SMWHff.com/categories/lua/</link>
+    <description>Recent content in Lua on SMWHff&#39;s Blog | 梦痕编程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
+    <atom:link href="https://SMWHff.com/categories/lua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lua编程：掌握字符串处理技巧</title>
+      <link>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</link>
+      <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
+      <guid>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</guid>
+      <description>Lua编程：掌握字符串处理技巧 标题: Lua编程：掌握字符串处理技巧 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所</description>
+    </item>
+  </channel>
+</rss>
