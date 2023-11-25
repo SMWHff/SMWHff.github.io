@@ -6,8 +6,15 @@
     <description>Recent content on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Nov 2023 02:00:23 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【插件】神梦填表插件 SmWeb.dll</title>
+      <link>https://SMWHff.com/posts/anjian/smweb/smweb_dll/</link>
+      <pubDate>Sun, 26 Nov 2023 02:00:23 +0800</pubDate>
+      <guid>https://SMWHff.com/posts/anjian/smweb/smweb_dll/</guid>
+      <description>神梦填表插件COM版出来了！ 支持 IE、谷歌浏览器 支持跨域夸框架穿透填表 【元素智能定位】 【上传文件】 【</description>
+    </item>
     <item>
       <title>Lua编程：掌握字符串处理技巧</title>
       <link>https://SMWHff.com/posts/lua/lua_string_manipulation_techniques/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Categories on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 18 Jan 2023 15:02:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Nov 2023 02:00:23 +0800</lastBuildDate>
     <atom:link href="https://SMWHff.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AnJian</title>
+      <link>https://SMWHff.com/categories/anjian/</link>
+      <pubDate>Sun, 26 Nov 2023 02:00:23 +0800</pubDate>
+      <guid>https://SMWHff.com/categories/anjian/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Lua</title>
       <link>https://SMWHff.com/categories/lua/</link>
