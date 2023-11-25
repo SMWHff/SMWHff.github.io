@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Appium on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>https://SMWHff.com/tags/appium/</link>
+    <link>https://smwhff.com/tags/appium/</link>
     <description>Recent content in Appium on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 18 Jan 2023 14:30:21 +0800</lastBuildDate>
-    <atom:link href="https://SMWHff.com/tags/appium/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://smwhff.com/tags/appium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows 安装 Appium 教程</title>
-      <link>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</link>
+      <link>https://smwhff.com/posts/appium/windows_appium_installation_tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/posts/appium/windows_appium_installation_tutorial/</guid>
+      <guid>https://smwhff.com/posts/appium/windows_appium_installation_tutorial/</guid>
       <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所有文章，都遵守“署名-非商业性使用-</description>
     </item>
   </channel>

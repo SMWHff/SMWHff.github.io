@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on SMWHff&#39;s Blog | 梦痕编程</title>
-    <link>https://SMWHff.com/categories/</link>
+    <link>https://smwhff.com/categories/</link>
     <description>Recent content in Categories on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 26 Nov 2023 02:00:23 +0800</lastBuildDate>
-    <atom:link href="https://SMWHff.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://smwhff.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AnJian</title>
-      <link>https://SMWHff.com/categories/anjian/</link>
+      <link>https://smwhff.com/categories/anjian/</link>
       <pubDate>Sun, 26 Nov 2023 02:00:23 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/anjian/</guid>
+      <guid>https://smwhff.com/categories/anjian/</guid>
       <description></description>
     </item>
     <item>
       <title>Lua</title>
-      <link>https://SMWHff.com/categories/lua/</link>
+      <link>https://smwhff.com/categories/lua/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/lua/</guid>
+      <guid>https://smwhff.com/categories/lua/</guid>
       <description></description>
     </item>
     <item>
       <title>Appium</title>
-      <link>https://SMWHff.com/categories/appium/</link>
+      <link>https://smwhff.com/categories/appium/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/appium/</guid>
+      <guid>https://smwhff.com/categories/appium/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://SMWHff.com/categories/docker/</link>
+      <link>https://smwhff.com/categories/docker/</link>
       <pubDate>Wed, 18 Jan 2023 13:30:21 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/docker/</guid>
+      <guid>https://smwhff.com/categories/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>https://SMWHff.com/categories/github/</link>
+      <link>https://smwhff.com/categories/github/</link>
       <pubDate>Wed, 18 Jan 2023 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/github/</guid>
+      <guid>https://smwhff.com/categories/github/</guid>
       <description></description>
     </item>
     <item>
       <title>诗歌</title>
-      <link>https://SMWHff.com/categories/%E8%AF%97%E6%AD%8C/</link>
+      <link>https://smwhff.com/categories/%E8%AF%97%E6%AD%8C/</link>
       <pubDate>Sat, 24 Dec 2022 13:15:50 +0800</pubDate>
-      <guid>https://SMWHff.com/categories/%E8%AF%97%E6%AD%8C/</guid>
+      <guid>https://smwhff.com/categories/%E8%AF%97%E6%AD%8C/</guid>
       <description></description>
     </item>
   </channel>
