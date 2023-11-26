@@ -2,43 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://smwhff.com/posts/smweb-dll/</loc>
-    <lastmod>2023-11-26T21:03:08+08:00</lastmod>
+    <loc>https://smwhff.com/posts/smhttp-dll/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/categories/</loc>
-    <lastmod>2023-11-26T21:07:12+08:00</lastmod>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/dll/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/get/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/http/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/json/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/post/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/posts/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/series/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/smhttp/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/%E6%8C%89%E9%94%AE/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/categories/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/series/%E7%A5%9E%E6%A2%A6http%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/%E7%A5%9E%E6%A2%A6%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2023-11-27T00:12:23+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/posts/smweb-dll/</loc>
     <lastmod>2023-11-26T21:03:08+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/ie/</loc>
     <lastmod>2023-11-26T21:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/posts/</loc>
-    <lastmod>2023-11-26T21:07:12+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/series/</loc>
-    <lastmod>2023-11-26T21:07:12+08:00</lastmod>
-  </url><url>
     <loc>https://smwhff.com/tags/smweb/</loc>
-    <lastmod>2023-11-26T21:03:08+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/</loc>
-    <lastmod>2023-11-26T21:07:12+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/tags/</loc>
-    <lastmod>2023-11-26T21:07:12+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/tags/%E6%8C%89%E9%94%AE/</loc>
-    <lastmod>2023-11-26T21:03:08+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/tags/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</loc>
-    <lastmod>2023-11-26T21:03:08+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/categories/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</loc>
-    <lastmod>2023-11-26T21:03:08+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/tags/%E6%8F%92%E4%BB%B6/</loc>
     <lastmod>2023-11-26T21:03:08+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E8%B0%B7%E6%AD%8C/</loc>

@@ -1,17 +1,16 @@
 var if_origin_1 = 0, if_origin_2 = 0;
-var darkHTML = "<link rel='stylesheet' href='/css/style-dark.css' /><link rel='stylesheet' href='/css/syntax-dark.css' />";
+var darkHTML = `<link rel='stylesheet' href='/css/style-dark.css' /><link rel='stylesheet' href='/css/syntax-dark.css' />`;
 function jump(sel) {
     $("html,body").animate({ scrollTop: $(sel).offset().top - 60 }, 500);
 }
 
 if (sessionStorage.getItem('mode')) {
     if (sessionStorage.getItem('mode') == 'dark') {
-        $("link[href='/css/_custom.css']").before(darkHTML);
+        $("link[href='/css/custom.css']").before(darkHTML);
     }
 }
 
 $(document).ready(function () {
-
     $('.loading').fadeOut("slow");
     if (mode_custom == 'auto') {
         
@@ -19,7 +18,7 @@ $(document).ready(function () {
             var mydate = new Date(), hourNow = mydate.getHours();
             var isDark = (hourNow <= 6 && hourNow >= 0) || (hourNow >= 18 && hourNow <= 23);
             if (isDark) {
-                $("link[href='/css/_custom.css']").before(darkHTML);
+                $("link[href='/css/custom.css']").before(darkHTML);
                 $(".sun").hide();
                 $(".moon").show();
                 sessionStorage.setItem('mode', 'dark');
@@ -28,7 +27,6 @@ $(document).ready(function () {
             }
         } else {
             if (sessionStorage.getItem('mode') == 'dark') {
-                
                 $(".sun").hide();
                 $(".moon").show();
             }
@@ -36,7 +34,7 @@ $(document).ready(function () {
 
         $(".mode").click(function () {
             if (sessionStorage.getItem('mode') == 'light') {
-                $("link[href='/css/_custom.css']").before(darkHTML);
+                $("link[href='/css/custom.css']").before(darkHTML);
                 $(".sun").hide();
                 $(".moon").show();
                 sessionStorage.setItem('mode', 'dark');

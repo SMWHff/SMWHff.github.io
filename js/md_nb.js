@@ -1,6 +1,4 @@
 $(document).ready(function () {
-
-
     var isInBox, afterTagStr, boxKind, goalBox;
     var tabsNum = 0, titleNum = -1;
     $('.content-self').children().each(function() {
@@ -30,16 +28,13 @@ $(document).ready(function () {
                         if (boxId) goalBox.attr('tabs-id', boxId);
                         tabsNum++;
                         break;
-
                 }
             } else {
                 isInBox = false;
-                
             }
 
             // 删除此p
             $(this).remove();
-
         } else {
             // 对容器内的内容执行操作
             if (isInBox) {
@@ -80,23 +75,16 @@ $(document).ready(function () {
                         // 获取内容
                         } else {
                             goalBox.find('#tab-content-' + titleNum).append($(this)[0].outerHTML);
-
-
                         }
 
                         break;
                     default:
                         break;
-                        
                 }
                 
                 $(this).remove();
             }
-            
         }
-
-
-
     })
 
     // 收集 tabs id
@@ -163,9 +151,15 @@ $(document).ready(function () {
         }
     })
     
-
-
-    
+    // tabHttp
+    $('a').each(function() {
+        let href = $(this).attr('href');
+        if (href.substring(0, 4) === 'tab:') {
+            let newHref = href.substring(4);
+            $(this).attr('href', newHref);
+            $(this).attr('target', '_blank');
+        }
+    })
 })
 
 // 函数
