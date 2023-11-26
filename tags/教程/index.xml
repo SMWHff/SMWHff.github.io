@@ -13,14 +13,14 @@
       <link>https://smwhff.com/posts/lua-string-manipulation-techniques/</link>
       <pubDate>Wed, 18 Jan 2023 15:02:28 +0800</pubDate>
       <guid>https://smwhff.com/posts/lua-string-manipulation-techniques/</guid>
-      <description>Lua编程：掌握字符串处理技巧 标题: Lua编程：掌握字符串处理技巧 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所</description>
+      <description>Lua编程：掌握字符串处理技巧 A、string 库中字符索引 所有的字符索引从前往后是 1, 2, 3...； 从后</description>
     </item>
     <item>
       <title>Windows 安装 Appium 教程</title>
       <link>https://smwhff.com/posts/windows-appium-installation-tutorial/</link>
       <pubDate>Wed, 18 Jan 2023 14:30:21 +0800</pubDate>
       <guid>https://smwhff.com/posts/windows-appium-installation-tutorial/</guid>
-      <description>Windows 安装 Appium 教程 标题: Windows 安装 Appium 教程 作者: 神梦无痕 邮箱: smwh@vip.qq.com 版权: 本人所有文章，都遵守“署名-非商业性使用-</description>
+      <description>Windows 安装 Appium 教程 1. 部署 JAVA JDK 环境 1. JDK下载 华为镜像源：jdk-8u181-windows-x64.exe</description>
     </item>
     <item>
       <title>通过 Docker 安装 Testlink 平台教程</title>
