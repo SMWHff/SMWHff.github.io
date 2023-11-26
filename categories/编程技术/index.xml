@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>编程技术 on SMWHff&#39;s Blog | 梦痕编程</title>
+    <link>https://smwhff.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 编程技术 on SMWHff&#39;s Blog | 梦痕编程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 26 Nov 2023 23:10:41 +0800</lastBuildDate>
+    <atom:link href="https://smwhff.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【插件】神梦HTTP请求插件 SmHTTP.dll</title>
+      <link>https://smwhff.com/posts/smhttp-dll/</link>
+      <pubDate>Sun, 26 Nov 2023 23:10:41 +0800</pubDate>
+      <guid>https://smwhff.com/posts/smhttp-dll/</guid>
+      <description>【插件】神梦HTTP请求插件 SmHTTP.dll v1.0.0.0版 2023-10-12 \ |&amp;ndash;功能 支持GET、POST、HEA</description>
+    </item>
+  </channel>
+</rss>
