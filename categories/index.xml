@@ -6,8 +6,15 @@
     <description>Recent content in Categories on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Nov 2023 17:26:58 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2023 22:05:00 +0800</lastBuildDate>
     <atom:link href="https://smwhff.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>职业</title>
+      <link>https://smwhff.com/categories/%E8%81%8C%E4%B8%9A/</link>
+      <pubDate>Wed, 29 Nov 2023 22:05:00 +0800</pubDate>
+      <guid>https://smwhff.com/categories/%E8%81%8C%E4%B8%9A/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Python</title>
       <link>https://smwhff.com/categories/python/</link>
