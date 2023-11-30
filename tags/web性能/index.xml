@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web性能 on SMWHff&#39;s Blog | 梦痕编程</title>
+    <link>https://smwhff.com/tags/web%E6%80%A7%E8%83%BD/</link>
+    <description>Recent content in Web性能 on SMWHff&#39;s Blog | 梦痕编程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 Nov 2023 10:22:05 +0800</lastBuildDate>
+    <atom:link href="https://smwhff.com/tags/web%E6%80%A7%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简单调整，JavaScript性能翻倍！前端工程师的效率秘籍！</title>
+      <link>https://smwhff.com/posts/javascript-performance-optimization-for-developers/</link>
+      <pubDate>Thu, 30 Nov 2023 10:22:05 +0800</pubDate>
+      <guid>https://smwhff.com/posts/javascript-performance-optimization-for-developers/</guid>
+      <description>简单调整，JavaScript性能翻倍！前端工程师的效率秘籍！ “性能优化”在前端开发中不仅是一个技术</description>
+    </item>
+  </channel>
+</rss>
