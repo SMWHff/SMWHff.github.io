@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>按键码 on SMWHff&#39;s Blog | 梦痕编程</title>
+    <link>https://smwhff.com/tags/%E6%8C%89%E9%94%AE%E7%A0%81/</link>
+    <description>Recent content in 按键码 on SMWHff&#39;s Blog | 梦痕编程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Dec 2023 20:20:04 +0800</lastBuildDate>
+    <atom:link href="https://smwhff.com/tags/%E6%8C%89%E9%94%AE%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>掌握按键精灵：高效查询键盘按键码和名称</title>
+      <link>https://smwhff.com/posts/query-key-codes-names-with-key-wizard/</link>
+      <pubDate>Sun, 03 Dec 2023 20:20:04 +0800</pubDate>
+      <guid>https://smwhff.com/posts/query-key-codes-names-with-key-wizard/</guid>
+      <description>【按键精灵】查询按键码、按键名！ 在这篇详细指南中，我们将探索如何使用按键精灵来有效查询键盘的按键码和</description>
+    </item>
+  </channel>
+</rss>

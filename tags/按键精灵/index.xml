@@ -6,8 +6,15 @@
     <description>Recent content in 按键精灵 on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 26 Nov 2023 23:10:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Dec 2023 20:20:04 +0800</lastBuildDate>
     <atom:link href="https://smwhff.com/tags/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>掌握按键精灵：高效查询键盘按键码和名称</title>
+      <link>https://smwhff.com/posts/query-key-codes-names-with-key-wizard/</link>
+      <pubDate>Sun, 03 Dec 2023 20:20:04 +0800</pubDate>
+      <guid>https://smwhff.com/posts/query-key-codes-names-with-key-wizard/</guid>
+      <description>【按键精灵】查询按键码、按键名！ 在这篇详细指南中，我们将探索如何使用按键精灵来有效查询键盘的按键码和</description>
+    </item>
     <item>
       <title>【插件】神梦HTTP请求插件 SmHTTP.dll</title>
       <link>https://smwhff.com/posts/smhttp-dll/</link>
