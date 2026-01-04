@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://smwhff.com/tags/battery/</loc>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
+  </url><url>
     <loc>https://smwhff.com/categories/</loc>
-    <lastmod>2024-01-03T10:27:20+08:00</lastmod>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/linux/</loc>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/categories/linux/</loc>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/posts/</loc>
-    <lastmod>2024-01-03T10:27:20+08:00</lastmod>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/</loc>
-    <lastmod>2024-01-03T10:27:20+08:00</lastmod>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/</loc>
-    <lastmod>2024-01-03T10:27:20+08:00</lastmod>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
+  </url><url>
+    <loc>https://smwhff.com/posts/camel-tech/</loc>
+    <lastmod>2026-01-04T18:07:47+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/vb%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2024-01-03T10:27:20+08:00</lastmod>
@@ -63,25 +78,25 @@
     <lastmod>2023-12-01T20:06:58+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%85%BB%E7%94%9F/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/posts/programmer-health-wellness-guide/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E5%B7%A5%E4%BD%9C%E6%95%88%E7%8E%87/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E5%81%A5%E5%BA%B7%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/categories/%E5%81%A5%E5%BA%B7%E5%85%BB%E7%94%9F/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E4%B8%AD%E5%8C%BB/</loc>
-    <lastmod>2023-12-03T20:59:03+08:00</lastmod>
+    <lastmod>2026-01-04T15:30:35+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/%E8%A3%81%E5%91%98/</loc>
     <lastmod>2023-12-03T20:59:03+08:00</lastmod>
@@ -227,9 +242,6 @@
     <loc>https://smwhff.com/tags/string/</loc>
     <lastmod>2023-11-26T21:03:08+08:00</lastmod>
   </url><url>
-    <loc>https://smwhff.com/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-26T21:07:12+08:00</lastmod>
-  </url><url>
     <loc>https://smwhff.com/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-11-26T21:07:12+08:00</lastmod>
   </url><url>
@@ -273,9 +285,6 @@
     <lastmod>2023-11-26T06:13:55+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/series/docker%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-26T06:13:55+08:00</lastmod>
-  </url><url>
-    <loc>https://smwhff.com/tags/linux/</loc>
     <lastmod>2023-11-26T06:13:55+08:00</lastmod>
   </url><url>
     <loc>https://smwhff.com/tags/testlink/</loc>

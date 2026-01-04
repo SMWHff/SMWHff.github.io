@@ -81,11 +81,6 @@
     --myfont: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 * {
     padding: 0;
     margin: 0;
