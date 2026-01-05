@@ -6,8 +6,22 @@
     <description>Recent content in Categories on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 04 Jan 2026 16:25:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 08:35:22 +0800</lastBuildDate>
     <atom:link href="https://smwhff.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>https://smwhff.com/categories/javascript/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技术叙事</title>
+      <link>https://smwhff.com/categories/%E6%8A%80%E6%9C%AF%E5%8F%99%E4%BA%8B/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/categories/%E6%8A%80%E6%9C%AF%E5%8F%99%E4%BA%8B/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Linux</title>
       <link>https://smwhff.com/categories/linux/</link>
@@ -20,13 +34,6 @@
       <link>https://smwhff.com/categories/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</link>
       <pubDate>Sun, 03 Dec 2023 20:20:04 +0800</pubDate>
       <guid>https://smwhff.com/categories/%E6%8C%89%E9%94%AE%E7%B2%BE%E7%81%B5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript</title>
-      <link>https://smwhff.com/categories/javascript/</link>
-      <pubDate>Thu, 30 Nov 2023 10:22:05 +0800</pubDate>
-      <guid>https://smwhff.com/categories/javascript/</guid>
       <description></description>
     </item>
     <item>

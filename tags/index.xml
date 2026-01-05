@@ -6,20 +6,90 @@
     <description>Recent content in Tags on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 04 Jan 2026 16:25:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 08:35:22 +0800</lastBuildDate>
     <atom:link href="https://smwhff.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>battery</title>
-      <link>https://smwhff.com/tags/battery/</link>
-      <pubDate>Sun, 04 Jan 2026 16:25:50 +0800</pubDate>
-      <guid>https://smwhff.com/tags/battery/</guid>
+      <title>JavaScript</title>
+      <link>https://smwhff.com/tags/javascript/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lazysizes</title>
+      <link>https://smwhff.com/tags/lazysizes/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/tags/lazysizes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web开发</title>
+      <link>https://smwhff.com/tags/web%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/tags/web%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>前端优化</title>
+      <link>https://smwhff.com/tags/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/tags/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>性能优化</title>
+      <link>https://smwhff.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>I2C</title>
+      <link>https://smwhff.com/tags/i2c/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/tags/i2c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K8s故障</title>
+      <link>https://smwhff.com/tags/k8s%E6%95%85%E9%9A%9C/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/tags/k8s%E6%95%85%E9%9A%9C/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>https://smwhff.com/tags/linux/</link>
-      <pubDate>Sun, 04 Jan 2026 16:25:50 +0800</pubDate>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
       <guid>https://smwhff.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>嵌入式系统</title>
+      <link>https://smwhff.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数据中心运维</title>
+      <link>https://smwhff.com/tags/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E8%BF%90%E7%BB%B4/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/tags/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E8%BF%90%E7%BB%B4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>硬件调试</title>
+      <link>https://smwhff.com/tags/%E7%A1%AC%E4%BB%B6%E8%B0%83%E8%AF%95/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/tags/%E7%A1%AC%E4%BB%B6%E8%B0%83%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>battery</title>
+      <link>https://smwhff.com/tags/battery/</link>
+      <pubDate>Sun, 04 Jan 2026 16:25:50 +0800</pubDate>
+      <guid>https://smwhff.com/tags/battery/</guid>
       <description></description>
     </item>
     <item>
@@ -72,13 +142,6 @@
       <description></description>
     </item>
     <item>
-      <title>JavaScript</title>
-      <link>https://smwhff.com/tags/javascript/</link>
-      <pubDate>Thu, 30 Nov 2023 10:22:05 +0800</pubDate>
-      <guid>https://smwhff.com/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>JS</title>
       <link>https://smwhff.com/tags/js/</link>
       <pubDate>Thu, 30 Nov 2023 10:22:05 +0800</pubDate>
@@ -104,13 +167,6 @@
       <link>https://smwhff.com/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
       <pubDate>Thu, 30 Nov 2023 10:22:05 +0800</pubDate>
       <guid>https://smwhff.com/tags/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>性能优化</title>
-      <link>https://smwhff.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</link>
-      <pubDate>Thu, 30 Nov 2023 10:22:05 +0800</pubDate>
-      <guid>https://smwhff.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</guid>
       <description></description>
     </item>
     <item>
@@ -265,13 +321,6 @@
       <link>https://smwhff.com/tags/vb6/</link>
       <pubDate>Sun, 26 Nov 2023 23:10:41 +0800</pubDate>
       <guid>https://smwhff.com/tags/vb6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web开发</title>
-      <link>https://smwhff.com/tags/web%E5%BC%80%E5%8F%91/</link>
-      <pubDate>Sun, 26 Nov 2023 23:10:41 +0800</pubDate>
-      <guid>https://smwhff.com/tags/web%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     <item>

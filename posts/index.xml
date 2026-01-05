@@ -6,8 +6,22 @@
     <description>Recent content in Posts on SMWHff&#39;s Blog | 梦痕编程</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 04 Jan 2026 16:25:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 08:35:22 +0800</lastBuildDate>
     <atom:link href="https://smwhff.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最后的拦截：一场与lazysizes的毫秒级竞赛</title>
+      <link>https://smwhff.com/posts/lazysizes-image-proxy-solution/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/posts/lazysizes-image-proxy-solution/</guid>
+      <description>凌晨两点，我的屏幕还亮着——又一张图片加载失败了。那个棘手的GitHub图床加速问题已经困扰了我三天</description>
+    </item>
+    <item>
+      <title>凌晨两点的I2C战争</title>
+      <link>https://smwhff.com/posts/i2c-war-at-2am/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/posts/i2c-war-at-2am/</guid>
+      <description>机房里恒温恒湿，但李工的后背已经湿透。显示屏的光打在他三天没刮的胡茬上，泛着青灰。凌晨1点47分，整</description>
+    </item>
     <item>
       <title>数字骆驼</title>
       <link>https://smwhff.com/posts/camel-tech/</link>

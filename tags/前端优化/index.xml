@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>前端优化 on SMWHff&#39;s Blog | 梦痕编程</title>
+    <link>https://smwhff.com/tags/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96/</link>
+    <description>Recent content in 前端优化 on SMWHff&#39;s Blog | 梦痕编程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 05 Jan 2026 08:35:22 +0800</lastBuildDate>
+    <atom:link href="https://smwhff.com/tags/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最后的拦截：一场与lazysizes的毫秒级竞赛</title>
+      <link>https://smwhff.com/posts/lazysizes-image-proxy-solution/</link>
+      <pubDate>Mon, 05 Jan 2026 08:35:22 +0800</pubDate>
+      <guid>https://smwhff.com/posts/lazysizes-image-proxy-solution/</guid>
+      <description>凌晨两点，我的屏幕还亮着——又一张图片加载失败了。那个棘手的GitHub图床加速问题已经困扰了我三天</description>
+    </item>
+  </channel>
+</rss>

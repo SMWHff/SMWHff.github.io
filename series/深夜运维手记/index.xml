@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>深夜运维手记 on SMWHff&#39;s Blog | 梦痕编程</title>
+    <link>https://smwhff.com/series/%E6%B7%B1%E5%A4%9C%E8%BF%90%E7%BB%B4%E6%89%8B%E8%AE%B0/</link>
+    <description>Recent content in 深夜运维手记 on SMWHff&#39;s Blog | 梦痕编程</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 05 Jan 2026 08:19:14 +0800</lastBuildDate>
+    <atom:link href="https://smwhff.com/series/%E6%B7%B1%E5%A4%9C%E8%BF%90%E7%BB%B4%E6%89%8B%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>凌晨两点的I2C战争</title>
+      <link>https://smwhff.com/posts/i2c-war-at-2am/</link>
+      <pubDate>Mon, 05 Jan 2026 08:19:14 +0800</pubDate>
+      <guid>https://smwhff.com/posts/i2c-war-at-2am/</guid>
+      <description>机房里恒温恒湿，但李工的后背已经湿透。显示屏的光打在他三天没刮的胡茬上，泛着青灰。凌晨1点47分，整</description>
+    </item>
+  </channel>
+</rss>
